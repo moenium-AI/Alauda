@@ -17,6 +17,12 @@
 
 </div>
 
+<p align="center">
+  <a href="https://ko-fi.com/ここにあなたのID">
+    <img src="images/kofi_banner.png" alt="Support Alauda on Ko-fi" width="1000">
+  </a>
+</p>
+
 ---
 
 Alauda は foobar2000 の再生チェーンの中に入り、出力デバイスへ向かう音声を加工する多機能 DSP コンポーネントです。
