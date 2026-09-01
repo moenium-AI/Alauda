@@ -17,6 +17,12 @@
 
 </div>
 
+<p align="center">
+  <a href="https://ko-fi.com/ここにあなたのID">
+    <img src="images/kofi_banner.png" alt="Support Alauda on Ko-fi" width="1000">
+  </a>
+</p>
+
 ---
 
 Alauda sits in the foobar2000 playback chain and processes audio on its way to
