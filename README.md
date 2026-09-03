@@ -18,9 +18,13 @@
 </div>
 
 <p align="center">
-  <a href="https://ko-fi.com/ここにあなたのID">
+  <a href="https://ko-fi.com/moenium">
     <img src="images/kofi_banner.png" alt="Support Alauda on Ko-fi" width="1000">
   </a>
+</p>
+
+<p align="center">
+  <a href="https://ko-fi.com/moenium"><strong>Enjoying Alauda? Support me on Ko-fi</strong></a>
 </p>
 
 ---
