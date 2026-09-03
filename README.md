@@ -95,6 +95,33 @@ Ordering inside foobar2000's **Active DSPs** list also matters. A DSP placed bef
 | --- | --- |
 | ![Reverb](screenshots/alauda_screenshot/09_reverb_compact.png) | ![Headphone](screenshots/alauda_screenshot/12_headphone_compact.png) |
 
+<details>
+<summary><strong>More screenshots</strong></summary>
+
+<br>
+
+| Resampler | Reconstruction |
+| --- | --- |
+| ![Resampler](screenshots/alauda_screenshot/02_resampler_compact.png) | ![Reconstruction](screenshots/alauda_screenshot/03_reconstruction_compact.png) |
+
+| Dynamics Restoration | Enhance |
+| --- | --- |
+| ![Dynamics Restoration](screenshots/alauda_screenshot/04_dynamics_compact.png) | ![Enhance](screenshots/alauda_screenshot/05_enhance_compact.png) |
+
+| Analog | EQ |
+| --- | --- |
+| ![Analog](screenshots/alauda_screenshot/06_analog_compact.png) | ![EQ](screenshots/alauda_screenshot/08_eq_compact.png) |
+
+| Refine | Stereo Image |
+| --- | --- |
+| ![Refine](screenshots/alauda_screenshot/10_refine_compact.png) | ![Stereo Image](screenshots/alauda_screenshot/11_stereo_compact.png) |
+
+| Headphone Match | Finish |
+| --- | --- |
+| ![Headphone Match](screenshots/alauda_screenshot/13_headphone_match_compact.png) | ![Finish](screenshots/alauda_screenshot/14_finish_compact.png) |
+
+</details>
+
 ## Requirements
 
 | | |
