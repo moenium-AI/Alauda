@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Logo/PNG/alauda_logo_wide.png" alt="Alauda" width="420">
+<img src="logo/alauda_lockup.svg" alt="Alauda" width="420">
 
 **A multifunctional DSP component for foobar2000**
 
