@@ -41,7 +41,7 @@ every stage, including the resampler, starts disabled, so hearing no difference
 immediately after installation is expected.
 
 <div align="center">
-<img src="screenshots/alauda_screenshot/08_eq_compact.png" alt="Alauda configuration window - EQ page" width="720">
+<img src="screenshots/alauda_screenshot/16_navigation_pinned.png" alt="Alauda configuration window - Resampler page" width="720">
 </div>
 
 ## Contents
@@ -114,11 +114,15 @@ Ordering inside foobar2000's **Active DSPs** list also matters. A DSP placed bef
 
 | Refine | Stereo Image |
 | --- | --- |
-| ![Refine](screenshots/alauda_screenshot/10_refine_compact.png) | ![Stereo Image](screenshots/alauda_screenshot/11_stereo_compact.png) |
+| ![Refine](screenshots/alauda_screenshot/10_refine_compact.png) | ![Stereo Image](screenshots/alauda_screenshot/11_stereo_image_compact.png) |
 
 | Headphone Match | Finish |
 | --- | --- |
 | ![Headphone Match](screenshots/alauda_screenshot/13_headphone_match_compact.png) | ![Finish](screenshots/alauda_screenshot/14_finish_compact.png) |
+
+| Dark Theme | High Contrast Theme |
+| --- | --- |
+| ![Dark Theme](screenshots/alauda_screenshot/17_theme_dark.png) | ![High Contrast Theme](screenshots/alauda_screenshot/18_theme_high_contrast.png) |
 
 </details>
 
