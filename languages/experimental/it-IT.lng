@@ -1,0 +1,915 @@
+﻿# Alauda language file - Italiano (Experimental, UTF-8).
+#
+# Generated from alauda_en_template.lng.
+# Native review pending. Fixed selectable names follow the current localization policy.
+# Put this file in <foobar2000 profile>\languages.
+
+[AlaudaLanguage]
+id=it-IT
+name=Italiano
+version=1
+
+[Common]
+ok=OK
+cancel=Annulla
+apply=Applica
+
+[Preset.Manager]
+save_as=Salva con nome...
+import=Importa preset utente...
+open_folder=Cartella...
+load=Carica
+delete=Elimina il preset utente selezionato
+close=Chiudi
+
+[Navigation.Page]
+profiles=Profili
+resampler=Ricampionatore
+reconstruction=Ricostruzione
+dynamics=Dinamica
+enhance=Miglioramento
+analog=Analogico
+saturation=Saturazione
+eq=EQ
+reverb=Riverbero
+refine=Rifinitura
+stereo_image=Immagine stereo
+headphone=Cuffie
+headphone_match=Corrispondenza cuffie
+finish=Finale
+
+[Profiles.Genre]
+group=Profili per genere
+label=Genere:
+classical=Classica
+jazz=Jazz
+pop=Pop
+rock=Rock
+rn_b_soul=R&B / Soul
+electronic_synth=Elettronica / Synth
+folk_acoustic=Folk / Acustica
+new_age_ambient=New Age / Ambient
+j_pop_anime_song=J-POP / Anime
+film_soundtrack=Film / Colonna
+custom=Personalizzato
+
+[Genre.Preset]
+manage=Gestisci preset...
+delete_confirm=Eliminare il preset utente di genere selezionato?
+file_invalid=Questo non è un preset utente di genere valido di Alauda.
+file_io_failed=Impossibile leggere o scrivere il file del preset di genere.
+manager_title=Preset di genere
+manager_empty=Nessun preset utente di genere. Salva o importa un preset per iniziare.
+
+[Profiles.Resampler]
+group=Profili resampler
+
+[Profiles.Resampler.Factor]
+label=Fattore:
+
+[Profiles.Upsample]
+off=DISATTIVATO
+2=x2
+4=x4
+8=x8
+16=x16
+
+[Profiles.Phase]
+label=Fase:
+
+[Profiles.FilterPreset]
+label=Preset filtro:
+eco=Eco
+core=Core
+standard=Standard
+studio=Studio
+reference=Reference
+ultra=Ultra
+apex=Apex
+custom=Custom
+
+[Profiles.OutputLimits]
+group=Limiti di uscita
+
+[Profiles.OutputLimits.SampleRateCap]
+enable=Limita freq. uscita
+
+[Profiles.OutputLimits.SampleRateMax]
+label=Max (kHz):
+
+[Profiles.OutputLimits.Preview]
+label=Anteprima:
+as_requested=Come richiesto
+
+[Profiles.Language]
+group=Impostazioni lingua
+label=Lingua:
+
+[Profiles.Language.Folder]
+open=Apri cartella
+
+[Resampler]
+enable=Attiva
+
+[Resampler.Conversion]
+group=Conversione
+
+[Resampler.OutputRate]
+label=Freq. uscita:
+
+[Resampler.Phase]
+linear=Lineare
+mixed=Mista
+minimum=Minima
+maximum=Massima
+label=Fase:
+
+[Resampler.Engine]
+direct=Direct
+cascade=Cascade
+label=Motore:
+
+[Resampler.OutputCap]
+label=Limite di uscita
+no_limit=nessuno
+
+[Resampler.FilterDesign]
+group=Progetto filtro
+
+[Resampler.Quality]
+eco_96=Eco (96 dB)
+core_120=Core (120 dB)
+standard_144=Standard (144 dB)
+studio_168=Studio (168 dB)
+reference_192=Reference (192 dB)
+ultra_216=Ultra (216 dB)
+apex_240=Apex (240 dB)
+label=Qualità:
+
+[Resampler.Bandwidth]
+label=Larghezza banda:
+
+[Resampler.Ab]
+resampler_only=Solo resampler (A/B)
+
+[Resampler.Analyzer]
+group=Risposta / obiettivo
+
+[Resampler.CommonRates]
+group=Uscita / freq. comuni
+requested=Richiesta
+
+[Resampler.Response]
+passband=Banda -3 dB
+flat_to=Piatta fino a
+stopband=Arresto
+stopband_edge=Bordo arresto
+
+[Resampler.Route]
+direct=Diretto (1 stadio)
+cascade=Cascata (più stadi)
+
+[Resampler.Status]
+bypassed=BYPASS
+active=ATTIVO
+
+[Reconstruction]
+enable=Attiva
+
+[Reconstruction.Toolbar]
+title=Ricostruzione
+
+[Reconstruction.Mode]
+natural_shape=Natural Shape
+smooth_continuity=Smooth Continuity
+balanced_shape=Balanced Shape
+edge_focus=Edge Focus
+fine_detail=Fine Detail
+tail_restore=Tail Restore
+label=Modalità:
+
+[Reconstruction.Strength]
+label=Intensità:
+
+[Reconstruction.Activity]
+group=Attività
+active=ATTIVO
+ready=PRONTO
+bypassed=BYPASS
+waiting_audio=In attesa dell'audio dal vivo. Avvia la riproduzione per iniziare la visualizzazione
+current_level=Livello attuale
+
+[Dynamics.Restoration]
+group=Ripristino dinamica
+
+[Dynamics]
+enable=Attiva
+
+[Dynamics.Mode]
+gentle=Gentle
+standard=Standard
+repair=Repair
+label=Modalità:
+
+[Dynamics.Strength]
+label=Intensità:
+
+[Dynamics.Response]
+group=Risposta
+
+[Dynamics.Density]
+label=Densità:
+
+[Dynamics.RestoreActivity]
+group=Ripristino
+loudness_spent=Loudness usato
+tonal_cut=Taglio tonale
+active=Attivo
+ready=Pronto
+
+[Enhance.Main]
+group=Miglioramento
+
+[Enhance]
+enable=Attiva
+level_match=Level Match
+
+[Enhance.Preset]
+custom=Custom
+clean=Clean Lift
+smooth=Smooth Body
+rich=Rich Harmonics
+forward=Forward Presence
+warm=Warm Body
+energy_push=Energy Push
+acoustic=Acoustic Body
+vocal=Vocal
+airy=Airy
+label=Preset:
+manage=Gestisci preset...
+delete_confirm=Eliminare il preset utente di Miglioramento selezionato?
+file_invalid=Questo non è un preset utente di Miglioramento valido di Alauda.
+file_io_failed=Impossibile leggere o scrivere il file del preset di Miglioramento.
+manager_title=Preset di Miglioramento
+manager_empty=Nessun preset utente di Miglioramento. Salva o importa un preset per iniziare.
+
+[Enhance.Strength]
+label=Intensità:
+
+[Enhance.VocalFocus]
+label=Focus vocale:
+
+[Enhance.Core]
+off=OFF
+velvet=Velvet
+triode_se=Triode SE
+triode_pp=Triode PP
+pentode_se=Pentode SE
+pentode_pp=Pentode PP
+op_amp=Op-Amp
+transistor=Transistor
+diode=Diode
+tape_vintage=Vintage Tape
+tape_modern=Modern Tape
+tape_tube=Tube Tape
+
+[Enhance.Core.Low]
+label=Bassi
+
+[Enhance.Core.LowMid]
+label=Medio-bassi
+
+[Enhance.Core.Mid]
+label=Medi
+
+[Enhance.Core.High]
+label=Alti
+
+[Enhance.Core.Air]
+label=Aria
+
+[Enhance.Band]
+group=Banda
+
+[Enhance.Band.Selected]
+label=Banda:
+
+[Enhance.Band.Frequency]
+label=Frequenza:
+
+[Enhance.Band.Width]
+label=Ampiezza:
+
+[Enhance.Band.Amount]
+label=Quantità:
+
+[Enhance.Band.Drive]
+label=Drive:
+
+[Enhance.Band.Taming]
+label=Contenimento:
+
+[Analog]
+enable=Attiva
+level_match=Level Match
+safety_clip=Clip di sicurezza
+
+[Analog.Preset]
+analog_balance=Analog Balance
+center_focus=Center Focus
+smooth_glue=Smooth Glue
+wide_field=Wide Field
+smooth_air=Smooth Air
+bass_punch=Bass Punch
+custom=Custom
+label=Preset:
+manage=Gestisci preset...
+delete_confirm=Eliminare il preset utente Analogico selezionato?
+file_invalid=Questo non è un preset utente Analogico valido di Alauda.
+file_io_failed=Impossibile leggere o scrivere il file del preset Analogico.
+manager_title=Preset Analogici
+manager_empty=Nessun preset utente Analogico. Salva o importa un preset per iniziare.
+
+[Analog.Strength]
+label=Intensità:
+
+[Analog.InputGain]
+label=Input Gain:
+
+[Analog.OutputGain]
+label=Output Gain:
+
+[Analog.Air]
+group=Aria
+
+[Analog.AirSmooth]
+enable=Air Smooth
+side_only=Side Only
+
+[Analog.AirSmooth.Split]
+label=Divisione (Hz):
+
+[Analog.AirSmooth.Shape]
+label=Forma (Hz):
+
+[Analog.AirSmooth.Amount]
+label=Uniformità:
+
+[Analog.AirWidth]
+label=Ampiezza dell'aria:
+
+[Analog.Detail]
+group=Dettaglio analogico
+
+[Analog.Glue]
+label=Glue (Sag):
+
+[Analog.LowWeight]
+label=Peso dei bassi:
+
+[Analog.WidthProtect]
+label=Protezione ampiezza:
+
+[Analog.Crosstalk]
+label=Diafonia:
+
+[Analog.WowFlutter]
+label=Wow/Flutter:
+
+[Analog.Analyzer]
+group=SPETTRO / DELTA
+input_legend=Ingresso
+output_legend=Uscita
+delta_legend=Delta
+waiting_audio=In attesa dell'audio
+
+[Analog.Meter]
+group=MISURATORE ANALOGICO
+
+[Analog.Gain]
+group=Gain
+
+[Saturation.Main]
+group=Saturazione
+
+[Saturation]
+enable=Attiva
+level_match=Level Match
+
+[Saturation.Mode]
+tape_7_5_ips=Tape - 7.5 ips
+tape_15_ips=Tape - 15 ips
+tape_30_ips=Tape - 30 ips
+triode_single_ended=Triode - Single-Ended
+triode_push_pull=Triode - Push-Pull
+pentode_single_ended=Pentode - Single-Ended
+pentode_push_pull=Pentode - Push-Pull
+transformer_steel=Transformer - Steel
+transformer_nickel=Transformer - Nickel
+label=Modalità:
+
+[Saturation.Character]
+group=Carattere
+custom=Custom
+slow_warmth=Warmth
+slow_glue=Glue
+studio_body=Body
+studio_drive=Drive
+master_clean=Clean
+master_punch=Punch
+single_velvet=Velvet
+single_body=Body
+single_drive=Drive
+balanced_glow=Glow
+balanced_presence=Presence
+balanced_drive=Drive
+single_edge=Edge
+single_bite=Bite
+balanced_clear=Clear
+steel_warmth=Warmth
+steel_weight=Weight
+steel_drive=Drive
+nickel_clarity=Clarity
+nickel_focus=Focus
+nickel_drive=Drive
+label=Carattere:
+
+[Saturation.Preset]
+manage=Gestisci preset...
+delete_confirm=Eliminare il preset utente di Saturazione selezionato?
+file_invalid=Questo non è un preset utente di Saturazione valido di Alauda.
+file_io_failed=Impossibile leggere o scrivere il file preset di Saturazione.
+manager_title=Preset di Saturazione
+manager_empty=Nessun preset utente di Saturazione. Salva o importa un preset per iniziare.
+
+[Saturation.Quality]
+light=Light
+standard=Standard
+high=High
+ultra=Ultra
+label=Qualità:
+
+[Saturation.Strength]
+label=Intensità:
+
+[Saturation.InputGain]
+label=Input Gain:
+
+[Saturation.OutputGain]
+label=Output Gain:
+
+[Saturation.BandColor]
+group=Colore della banda
+
+[Saturation.Drive]
+label=Drive:
+
+[Saturation.Low]
+label=Bassi:
+
+[Saturation.Mid]
+label=Medi:
+
+[Saturation.High]
+label=Alti:
+
+[Saturation.Mix]
+label=Mix:
+
+[Saturation.Asymmetry]
+label=Asimmetria:
+
+[EQ.Main]
+group=EQ
+
+[EQ]
+enable=Attiva
+
+[EQ.Preset]
+neutral=Flat Response
+acoustic=Acoustic Balance
+warm=Warm Body
+smooth=Smooth Tone
+clear=Clear Presence
+vocal=Vocal Presence
+forward=Forward Presence
+air=Air Lift
+custom=Custom
+gentle_clear=Gentle Clear
+vocal_polish=Vocal Polish
+mid_fullness=Mid Fullness
+tight_low_end=Tight Low End
+deep_bass=Deep Bass
+groove_pocket=Groove Pocket
+synth_punch=Synth Punch
+pop_polish=Pop Polish
+soft_air=Soft Air
+sparkle=Top Sparkle
+loudness=Loudness Curve
+night=Night Trim
+cinema_depth=Cinema Depth
+vintage_mid=Vintage Mid
+label=Preset:
+manage=Gestisci preset...
+delete_confirm=Eliminare il preset utente EQ selezionato?
+file_invalid=Questo non è un preset utente EQ valido di Alauda.
+file_io_failed=Impossibile leggere o scrivere il file del preset EQ.
+manager_title=Preset EQ
+manager_empty=Nessun preset utente EQ. Salva o importa un preset per iniziare.
+
+[EQ.Band]
+sub=Sub
+bass=Bassi
+low_mid=Medio-bassi
+mid=Medi
+high_mid=Medio-alti
+presence=Presenza
+brilliance=Brillantezza
+air=Aria
+group=Banda selezionata
+enabled=Abilitata
+
+[EQ.Band.Selected]
+label=Banda:
+
+[EQ.Type]
+low_shelf=Shelf basso
+bell=Campana
+high_shelf=Shelf alto
+notch=Notch
+high_pass=HPF
+low_pass=LPF
+label=Tipo:
+
+[EQ.Frequency]
+label=Frequenza:
+
+[EQ.Gain]
+label=Gain:
+
+[EQ.Q]
+label=Q:
+
+[EQ.OutputGain]
+label=Output Gain:
+
+[Reverb.Main]
+group=Riverbero
+
+[Reverb]
+enable=Attiva
+
+[Reverb.Mode]
+ambience=Ambience
+room=Room
+chamber=Chamber
+hall=Hall
+plate=Plate
+label=Modalità:
+
+[Reverb.Character]
+custom=Custom
+label=Carattere:
+
+[Reverb.Preset]
+tight_ambience=Tight Ambience
+open_ambience=Open Ambience
+diffuse_ambience=Diffuse Ambience
+studio_room=Studio Room
+natural_room=Natural Room
+live_room=Live Room
+small_chamber=Small Chamber
+medium_chamber=Medium Chamber
+large_chamber=Large Chamber
+echo_chamber=Echo Chamber
+small_hall=Small Hall
+medium_hall=Medium Hall
+concert_hall=Concert Hall
+grand_hall=Grand Hall
+vintage_plate=Vintage Plate
+bright_plate=Bright Plate
+vocal_plate=Vocal Plate
+label=Preset:
+manage=Gestisci preset...
+delete_confirm=Eliminare il preset utente di Riverbero selezionato?
+file_invalid=Questo non è un preset utente di Riverbero valido di Alauda.
+file_io_failed=Impossibile leggere o scrivere il file preset di Riverbero.
+manager_title=Preset di Riverbero
+manager_empty=Nessun preset utente di Riverbero. Salva o importa un preset per iniziare.
+
+[Reverb.Quality]
+light=Light
+standard=Standard
+high=High
+label=Qualità:
+
+[Reverb.Amount]
+label=Quantità:
+
+[Reverb.Preview]
+group=Anteprima riverb.
+early=Rifl. iniziali
+tail=Coda
+
+[Reverb.Space]
+group=Spazio
+
+[Reverb.Tail]
+group=Coda
+
+[Reverb.Tone]
+group=Timbro
+
+[Reverb.Size]
+label=Dimensione:
+
+[Reverb.Decay]
+label=Decadimento:
+
+[Reverb.LowDecay]
+label=Decadimento dei bassi:
+
+[Reverb.HighDecay]
+label=Decadimento degli alti:
+
+[Reverb.Damping]
+label=Smorzamento:
+
+[Reverb.Width]
+label=Ampiezza:
+
+[Reverb.Predelay]
+label=Pre-delay:
+
+[Reverb.LowCut]
+label=Taglio dei bassi:
+
+[Reverb.TailMix]
+label=Mix della coda:
+
+[Reverb.Diffusion]
+label=Diffusione:
+
+[Reverb.Modulation]
+label=Modulazione:
+
+[Refine.Subsonic]
+group=Protezione subsonica
+enable=Attiva
+
+[Refine.Subsonic.Mode]
+label=Modalità:
+gentle=Gentle
+standard=Standard
+strict=Strict
+custom=Custom
+
+[Refine.Subsonic.Slope]
+label=Pendenza:
+natural12=Natural (12 dB/oct)
+balanced18=Balanced (18 dB/oct)
+strong24=Strong (24 dB/oct)
+
+[Refine.Subsonic.Cutoff]
+label=Frequenza di taglio
+
+[Refine.Ultrasonic]
+group=Estensione ultrasonica
+enable=Attiva
+
+[Refine.Ultrasonic.Amount]
+label=Quantità:
+
+[Refine.FatigueGuard]
+group=Protezione fatica
+enable=Attiva
+
+[Refine.FatigueGuard.Amount]
+label=Quantità:
+
+[MonoToStereo]
+group=Da mono a stereo
+enable=Attiva
+
+[MonoToStereo.Mode]
+natural=Natural
+center_protect=Center Protect
+vintage=Vintage
+classical_stage=Classical Stage
+label=Modalità:
+
+[MonoToStereo.Amount]
+label=Quantità:
+
+[MonoToStereo.BassProtect]
+label=Protezione dei bassi:
+
+[ImageSpread]
+group=Ampiezza dell'immagine
+enable=Attiva
+
+[ImageSpread.Mode]
+natural=Natural
+old_recording=Old Recording
+label=Modalità:
+vocal_protect=Vocal Protect
+
+[ImageSpread.Amount]
+label=Quantità:
+
+[ImageSpread.BassProtect]
+label=Protezione dei bassi:
+
+[Headphone.Crossfeed]
+group=Crossfeed
+enable=Attiva
+
+[Headphone.Crossfeed.Preset]
+gentle_blend=Gentle Blend
+balanced_blend=Balanced Blend
+speaker_blend=Speaker Blend
+label=Preset:
+
+[Headphone.Crossfeed.Amount]
+label=Quantità:
+
+[Headphone.VirtualSpeakers]
+group=Diffusori virtuali
+enable=Attiva
+
+[Headphone.VirtualSpeakers.Room]
+treated_studio=Studio trattato
+furnished_room=Stanza arredata
+wood_room=Stanza in legno
+live_room=Sala live
+label=Stanza:
+
+[Headphone.VirtualSpeakers.Speaker]
+nearfield_monitor=Monitor vicino
+studio_monitor=Monitor studio
+coaxial_hi_fi=Coassiale Hi-Fi
+large_floorstander=Diffusore a colonna
+label=Diffusore:
+
+[Headphone.VirtualSpeakers.Angle]
+label=Angolo:
+
+[Headphone.VirtualSpeakers.Distance]
+label=Distanza:
+
+[Headphone.VirtualSpeakers.Strength]
+label=Intensità:
+
+[HeadphoneMatch.Profile]
+label=Profilo:
+import=Importa
+clear=Cancella
+
+[HeadphoneMatch.Band]
+prefix=Banda
+
+[HeadphoneMatch.Amount]
+label=Quantità:
+
+[HeadphoneMatch.Preamp]
+group=Preamplificatore
+auto=Auto
+
+[Finish.Output]
+group=Finitura dell'uscita
+loudness_match=Loudness Match
+
+[Finish.AutoHeadroom]
+enable=Auto Headroom
+
+[Finish.AutoHeadroom.Headroom]
+label=Headroom:
+
+[Finish.AutoHeadroom.Amount]
+label=Quantità:
+
+[Finish.Preout]
+group=Pre-out Gain
+
+[Finish.Output.PreoutGain]
+label=Pre-out Gain:
+
+[Finish.SafetyLimiter]
+group=Limitatore di sicurezza
+enable=Attiva
+
+[Finish.SafetyLimiter.Mode]
+label=Modalità:
+transparent=Transparent
+balanced=Balanced
+smooth=Smooth
+strict=Strict
+custom=Custom
+
+[Finish.SafetyLimiter.TruePeak]
+label=True Peak:
+off=Disattivato
+2=2x
+4=4x
+
+[Finish.SafetyLimiter.Ceiling]
+label=Soglia:
+
+[Finish.SafetyLimiter.Attack]
+label=Attacco:
+
+[Finish.SafetyLimiter.Release]
+label=Rilascio:
+
+[Finish.SafetyLimiter.Lookahead]
+label=Lookahead:
+
+[Finish.SafetyLimiter.GainReduction]
+label=Gain Reduction:
+maximum=Max
+
+[Finish.Dither]
+group=Dither / Noise Shaping
+enable=Dither
+
+[Finish.Dither.BitDepth]
+label=Profondità in bit:
+16=16-bit
+24=24-bit
+
+[Finish.Dither.Algorithm]
+label=Algoritmo:
+tpdf=TPDF
+highpass_tpdf=HP-TPDF
+
+[Finish.Dither.NoiseShaping]
+label=Noise Shaping:
+none=Nessuno
+highpass_2=HP del 2° ordine
+highpass_3=HP del 3° ordine
+psychoacoustic=Psicoacustico
+psychoacoustic_plus=Psicoacustico+
+
+[Saturation.Analyzer]
+group=SPETTRO / ARMONICHE
+harmonic_activity=Attività armonica
+even=Pari
+odd=Dispari
+input_legend=Ingresso
+output_legend=Uscita
+waiting_audio=In attesa dell'audio
+
+[Shell]
+import_settings=Importa impostazioni...
+export_settings=Esporta impostazioni...
+reset_page=Reimposta pagina
+defaults=Impostazioni predefinite
+apply_required=Alcune modifiche richiedono Applica
+processing_order=ORDINE DI ELABORAZIONE
+about=Informazioni su Alauda
+help=Aiuto
+
+[Shell.Manual]
+unavailable=Impossibile aprire il manuale online di Alauda.\n\nControlla la connessione Internet e il browser web predefinito.
+
+[Shell.PageList]
+open=Apri elenco pagine
+pin=Fissa elenco pagine
+unpin=Sblocca elenco pagine
+
+[Shell.Theme]
+label=Tema
+system=Sistema
+dark=Scuro
+light=Chiaro
+high_contrast=Contrasto elevato
+
+[Shell.UiScale]
+label=Scala dell'interfaccia
+
+[Shell.SettingsFile]
+open_failed=Impossibile aprire il file delle impostazioni.
+invalid_size=Il file delle impostazioni ha una dimensione non valida.
+read_failed=Impossibile leggere il file delle impostazioni.
+create_failed=Impossibile creare il file delle impostazioni.
+write_failed=Impossibile scrivere il file delle impostazioni.
+invalid_format=Questo non è un file di impostazioni Alauda valido oppure usa una versione non supportata.
+
+[Shell.InitError]
+shell_title=Impossibile inizializzare il guscio Preferenze di JUCE
+shell_detail=Nessuna impostazione è stata modificata. Annulla e ricarica Alauda prima di riprovare.
+pages_title=Impossibile inizializzare le Preferenze di Alauda
+pages_detail_prefix=Impossibile creare le seguenti pagine JUCE:
+pages_detail_suffix=. L'applicazione delle impostazioni è disabilitata. Annulla e ricarica Alauda prima di riprovare.
+
+[Shell.LanguageReport]
+title=Cartella lingue di Alauda
+coverage_heading=Stringhe tradotte per file lingua:
+rejected_heading=Questi file non sono stati caricati:
+reason_unreadable=impossibile leggere il file
+reason_version=versione del formato non supportata
+reason_invalid_id=l'identificatore della lingua non è valido
+reason_reserved_id=l'identificatore "en" è riservato all'inglese integrato
+reason_no_entries=nessuna traduzione utilizzabile; verifica che il file sia salvato in UTF-8
+reason_line_too_long=una riga è troppo lunga
+reason_string_too_long=una traduzione è troppo lunga

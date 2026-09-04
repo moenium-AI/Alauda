@@ -1,0 +1,915 @@
+﻿# Alauda language file - Русский (Experimental, UTF-8).
+#
+# Generated from alauda_en_template.lng.
+# Native review pending. Fixed selectable names follow the current localization policy.
+# Put this file in <foobar2000 profile>\languages.
+
+[AlaudaLanguage]
+id=ru-RU
+name=Русский
+version=1
+
+[Common]
+ok=OK
+cancel=Отмена
+apply=Применить
+
+[Preset.Manager]
+save_as=Сохранить как...
+import=Импортировать пользовательский пресет...
+open_folder=Папка...
+load=Загрузить
+delete=Удалить выбранный пользовательский пресет
+close=Закрыть
+
+[Navigation.Page]
+profiles=Профили
+resampler=Ресэмплер
+reconstruction=Реконструкция
+dynamics=Динамика
+enhance=Улучшение
+analog=Аналог
+saturation=Сатурация
+eq=EQ
+reverb=Реверберация
+refine=Коррекция
+stereo_image=Стереообраз
+headphone=Наушники
+headphone_match=Коррекция наушников
+finish=Финиш
+
+[Profiles.Genre]
+group=Профили жанров
+label=Жанр:
+classical=Классика
+jazz=Jazz
+pop=Pop
+rock=Rock
+rn_b_soul=R&B / Soul
+electronic_synth=Электроника / Synth
+folk_acoustic=Фолк / Акустика
+new_age_ambient=New Age / Ambient
+j_pop_anime_song=J-POP / Anime
+film_soundtrack=Фильм / Саундтрек
+custom=Пользовательский
+
+[Genre.Preset]
+manage=Управление пресетами...
+delete_confirm=Удалить выбранный пользовательский пресет жанра?
+file_invalid=Это недопустимый пользовательский пресет жанра Alauda.
+file_io_failed=Не удалось прочитать или записать файл пресета жанра.
+manager_title=Пресеты жанров
+manager_empty=Пользовательских пресетов жанров нет. Сохраните или импортируйте пресет, чтобы начать.
+
+[Profiles.Resampler]
+group=Профили ресэмплера
+
+[Profiles.Resampler.Factor]
+label=Кратность:
+
+[Profiles.Upsample]
+off=ВЫКЛ.
+2=x2
+4=x4
+8=x8
+16=x16
+
+[Profiles.Phase]
+label=Фаза:
+
+[Profiles.FilterPreset]
+label=Пресет фильтра:
+eco=Eco
+core=Core
+standard=Standard
+studio=Studio
+reference=Reference
+ultra=Ultra
+apex=Apex
+custom=Custom
+
+[Profiles.OutputLimits]
+group=Ограничения выхода
+
+[Profiles.OutputLimits.SampleRateCap]
+enable=Лимит частоты выхода
+
+[Profiles.OutputLimits.SampleRateMax]
+label=Макс. (кГц):
+
+[Profiles.OutputLimits.Preview]
+label=Предпросмотр:
+as_requested=Как запрошено
+
+[Profiles.Language]
+group=Настройки языка
+label=Язык:
+
+[Profiles.Language.Folder]
+open=Открыть папку
+
+[Resampler]
+enable=Включить
+
+[Resampler.Conversion]
+group=Преобразование
+
+[Resampler.OutputRate]
+label=Частота выхода:
+
+[Resampler.Phase]
+linear=Линейная
+mixed=Смешанная
+minimum=Минимальная
+maximum=Максимальная
+label=Фаза:
+
+[Resampler.Engine]
+direct=Direct
+cascade=Cascade
+label=Движок:
+
+[Resampler.OutputCap]
+label=Ограничение выхода
+no_limit=нет
+
+[Resampler.FilterDesign]
+group=Проект фильтра
+
+[Resampler.Quality]
+eco_96=Eco (96 dB)
+core_120=Core (120 dB)
+standard_144=Standard (144 dB)
+studio_168=Studio (168 dB)
+reference_192=Reference (192 dB)
+ultra_216=Ultra (216 dB)
+apex_240=Apex (240 dB)
+label=Качество:
+
+[Resampler.Bandwidth]
+label=Полоса:
+
+[Resampler.Ab]
+resampler_only=Только ресэмплер
+
+[Resampler.Analyzer]
+group=АЧХ фильтра / цель
+
+[Resampler.CommonRates]
+group=Выход / общие частоты
+requested=Запрошено
+
+[Resampler.Response]
+passband=Полоса -3 дБ
+flat_to=Ровная АЧХ до
+stopband=Подавление
+stopband_edge=Край подавления
+
+[Resampler.Route]
+direct=Прямой (1 этап)
+cascade=Каскад (многоэтапный)
+
+[Resampler.Status]
+bypassed=ОБХОД
+active=АКТИВЕН
+
+[Reconstruction]
+enable=Включить
+
+[Reconstruction.Toolbar]
+title=Реконструкция
+
+[Reconstruction.Mode]
+natural_shape=Natural Shape
+smooth_continuity=Smooth Continuity
+balanced_shape=Balanced Shape
+edge_focus=Edge Focus
+fine_detail=Fine Detail
+tail_restore=Tail Restore
+label=Режим:
+
+[Reconstruction.Strength]
+label=Интенсивность:
+
+[Reconstruction.Activity]
+group=Активность
+active=АКТИВЕН
+ready=ГОТОВ
+bypassed=ОБХОД
+waiting_audio=Ожидание звука в реальном времени. Запустите воспроизведение для отображения
+current_level=Текущий уровень
+
+[Dynamics.Restoration]
+group=Восстановление динамики
+
+[Dynamics]
+enable=Включить
+
+[Dynamics.Mode]
+gentle=Gentle
+standard=Standard
+repair=Repair
+label=Режим:
+
+[Dynamics.Strength]
+label=Интенсивность:
+
+[Dynamics.Response]
+group=Отклик
+
+[Dynamics.Density]
+label=Плотность:
+
+[Dynamics.RestoreActivity]
+group=Восстановление
+loudness_spent=Расход громкости
+tonal_cut=Тональное ослабление
+active=Активен
+ready=Готов
+
+[Enhance.Main]
+group=Улучшение
+
+[Enhance]
+enable=Включить
+level_match=Level Match
+
+[Enhance.Preset]
+custom=Custom
+clean=Clean Lift
+smooth=Smooth Body
+rich=Rich Harmonics
+forward=Forward Presence
+warm=Warm Body
+energy_push=Energy Push
+acoustic=Acoustic Body
+vocal=Vocal
+airy=Airy
+label=Preset:
+manage=Управление пресетами...
+delete_confirm=Удалить выбранный пользовательский пресет улучшения?
+file_invalid=Это недопустимый пользовательский пресет улучшения Alauda.
+file_io_failed=Не удалось прочитать или записать файл пресета улучшения.
+manager_title=Пресеты улучшения
+manager_empty=Пользовательских пресетов улучшения нет. Сохраните или импортируйте пресет, чтобы начать.
+
+[Enhance.Strength]
+label=Интенсивность:
+
+[Enhance.VocalFocus]
+label=Фокус вокала:
+
+[Enhance.Core]
+off=OFF
+velvet=Velvet
+triode_se=Triode SE
+triode_pp=Triode PP
+pentode_se=Pentode SE
+pentode_pp=Pentode PP
+op_amp=Op-Amp
+transistor=Transistor
+diode=Diode
+tape_vintage=Vintage Tape
+tape_modern=Modern Tape
+tape_tube=Tube Tape
+
+[Enhance.Core.Low]
+label=Низ
+
+[Enhance.Core.LowMid]
+label=Нижняя середина
+
+[Enhance.Core.Mid]
+label=Середина
+
+[Enhance.Core.High]
+label=Верх
+
+[Enhance.Core.Air]
+label=Воздух
+
+[Enhance.Band]
+group=Полоса
+
+[Enhance.Band.Selected]
+label=Полоса:
+
+[Enhance.Band.Frequency]
+label=Частота:
+
+[Enhance.Band.Width]
+label=Ширина:
+
+[Enhance.Band.Amount]
+label=Количество:
+
+[Enhance.Band.Drive]
+label=Drive:
+
+[Enhance.Band.Taming]
+label=Смягчение:
+
+[Analog]
+enable=Включить
+level_match=Level Match
+safety_clip=Защитный клиппинг
+
+[Analog.Preset]
+analog_balance=Analog Balance
+center_focus=Center Focus
+smooth_glue=Smooth Glue
+wide_field=Wide Field
+smooth_air=Smooth Air
+bass_punch=Bass Punch
+custom=Custom
+label=Preset:
+manage=Управление пресетами...
+delete_confirm=Удалить выбранный пользовательский пресет аналога?
+file_invalid=Это недопустимый пользовательский пресет аналога Alauda.
+file_io_failed=Не удалось прочитать или записать файл пресета аналога.
+manager_title=Пресеты аналога
+manager_empty=Пользовательских пресетов аналога нет. Сохраните или импортируйте пресет, чтобы начать.
+
+[Analog.Strength]
+label=Интенсивность:
+
+[Analog.InputGain]
+label=Input Gain:
+
+[Analog.OutputGain]
+label=Output Gain:
+
+[Analog.Air]
+group=Воздух
+
+[Analog.AirSmooth]
+enable=Air Smooth
+side_only=Side Only
+
+[Analog.AirSmooth.Split]
+label=Split (Hz):
+
+[Analog.AirSmooth.Shape]
+label=Shape (Hz):
+
+[Analog.AirSmooth.Amount]
+label=Сглаживание:
+
+[Analog.AirWidth]
+label=Ширина воздуха:
+
+[Analog.Detail]
+group=Аналоговые детали
+
+[Analog.Glue]
+label=Glue (Sag):
+
+[Analog.LowWeight]
+label=Вес низа:
+
+[Analog.WidthProtect]
+label=Защита ширины:
+
+[Analog.Crosstalk]
+label=Перекрёстные помехи:
+
+[Analog.WowFlutter]
+label=Wow/Flutter:
+
+[Analog.Analyzer]
+group=СПЕКТР / ДЕЛЬТА
+input_legend=Вход
+output_legend=Выход
+delta_legend=Разница
+waiting_audio=Ожидание звука
+
+[Analog.Meter]
+group=АНАЛОГОВЫЙ ИНДИКАТОР
+
+[Analog.Gain]
+group=Gain
+
+[Saturation.Main]
+group=Сатурация
+
+[Saturation]
+enable=Включить
+level_match=Level Match
+
+[Saturation.Mode]
+tape_7_5_ips=Tape - 7.5 ips
+tape_15_ips=Tape - 15 ips
+tape_30_ips=Tape - 30 ips
+triode_single_ended=Triode - Single-Ended
+triode_push_pull=Triode - Push-Pull
+pentode_single_ended=Pentode - Single-Ended
+pentode_push_pull=Pentode - Push-Pull
+transformer_steel=Transformer - Steel
+transformer_nickel=Transformer - Nickel
+label=Режим:
+
+[Saturation.Character]
+group=Характер
+custom=Custom
+slow_warmth=Warmth
+slow_glue=Glue
+studio_body=Body
+studio_drive=Drive
+master_clean=Clean
+master_punch=Punch
+single_velvet=Velvet
+single_body=Body
+single_drive=Drive
+balanced_glow=Glow
+balanced_presence=Presence
+balanced_drive=Drive
+single_edge=Edge
+single_bite=Bite
+balanced_clear=Clear
+steel_warmth=Warmth
+steel_weight=Weight
+steel_drive=Drive
+nickel_clarity=Clarity
+nickel_focus=Focus
+nickel_drive=Drive
+label=Характер:
+
+[Saturation.Preset]
+manage=Управление пресетами...
+delete_confirm=Удалить выбранный пользовательский пресет сатурации?
+file_invalid=Это недопустимый пользовательский пресет сатурации Alauda.
+file_io_failed=Не удалось прочитать или записать файл пресета сатурации.
+manager_title=Пресеты сатурации
+manager_empty=Пользовательских пресетов сатурации нет. Сохраните или импортируйте пресет, чтобы начать.
+
+[Saturation.Quality]
+light=Light
+standard=Standard
+high=High
+ultra=Ultra
+label=Качество:
+
+[Saturation.Strength]
+label=Интенсивность:
+
+[Saturation.InputGain]
+label=Input Gain:
+
+[Saturation.OutputGain]
+label=Output Gain:
+
+[Saturation.BandColor]
+group=Цвет полосы
+
+[Saturation.Drive]
+label=Drive:
+
+[Saturation.Low]
+label=Низ:
+
+[Saturation.Mid]
+label=Середина:
+
+[Saturation.High]
+label=Верх:
+
+[Saturation.Mix]
+label=Микс:
+
+[Saturation.Asymmetry]
+label=Асимметрия:
+
+[EQ.Main]
+group=EQ
+
+[EQ]
+enable=Включить
+
+[EQ.Preset]
+neutral=Flat Response
+acoustic=Acoustic Balance
+warm=Warm Body
+smooth=Smooth Tone
+clear=Clear Presence
+vocal=Vocal Presence
+forward=Forward Presence
+air=Air Lift
+custom=Custom
+gentle_clear=Gentle Clear
+vocal_polish=Vocal Polish
+mid_fullness=Mid Fullness
+tight_low_end=Tight Low End
+deep_bass=Deep Bass
+groove_pocket=Groove Pocket
+synth_punch=Synth Punch
+pop_polish=Pop Polish
+soft_air=Soft Air
+sparkle=Top Sparkle
+loudness=Loudness Curve
+night=Night Trim
+cinema_depth=Cinema Depth
+vintage_mid=Vintage Mid
+label=Preset:
+manage=Управление пресетами...
+delete_confirm=Удалить выбранный пользовательский пресет EQ?
+file_invalid=Это недопустимый пользовательский пресет EQ Alauda.
+file_io_failed=Не удалось прочитать или записать файл пресета EQ.
+manager_title=Пресеты EQ
+manager_empty=Пользовательских пресетов EQ нет. Сохраните или импортируйте пресет, чтобы начать.
+
+[EQ.Band]
+sub=Саб
+bass=Бас
+low_mid=Низкая середина
+mid=Середина
+high_mid=Верхняя середина
+presence=Присутствие
+brilliance=Блеск
+air=Воздух
+group=Выбранная полоса
+enabled=Включена
+
+[EQ.Band.Selected]
+label=Полоса:
+
+[EQ.Type]
+low_shelf=Низкочастотный shelving
+bell=Колоколообразный
+high_shelf=Высокочастотный shelving
+notch=Режекторный
+high_pass=HPF
+low_pass=LPF
+label=Тип:
+
+[EQ.Frequency]
+label=Частота:
+
+[EQ.Gain]
+label=Gain:
+
+[EQ.Q]
+label=Q:
+
+[EQ.OutputGain]
+label=Output Gain:
+
+[Reverb.Main]
+group=Реверберация
+
+[Reverb]
+enable=Включить
+
+[Reverb.Mode]
+ambience=Ambience
+room=Room
+chamber=Chamber
+hall=Hall
+plate=Plate
+label=Режим:
+
+[Reverb.Character]
+custom=Custom
+label=Характер:
+
+[Reverb.Preset]
+tight_ambience=Tight Ambience
+open_ambience=Open Ambience
+diffuse_ambience=Diffuse Ambience
+studio_room=Studio Room
+natural_room=Natural Room
+live_room=Live Room
+small_chamber=Small Chamber
+medium_chamber=Medium Chamber
+large_chamber=Large Chamber
+echo_chamber=Echo Chamber
+small_hall=Small Hall
+medium_hall=Medium Hall
+concert_hall=Concert Hall
+grand_hall=Grand Hall
+vintage_plate=Vintage Plate
+bright_plate=Bright Plate
+vocal_plate=Vocal Plate
+label=Preset:
+manage=Управление пресетами...
+delete_confirm=Удалить выбранный пользовательский пресет реверберации?
+file_invalid=Это недопустимый пользовательский пресет реверберации Alauda.
+file_io_failed=Не удалось прочитать или записать файл пресета реверберации.
+manager_title=Пресеты реверберации
+manager_empty=Пользовательских пресетов реверберации нет. Сохраните или импортируйте пресет, чтобы начать.
+
+[Reverb.Quality]
+light=Light
+standard=Standard
+high=High
+label=Качество:
+
+[Reverb.Amount]
+label=Количество:
+
+[Reverb.Preview]
+group=Предпросмотр
+early=Ранние отраж.
+tail=Хвост
+
+[Reverb.Space]
+group=Пространство
+
+[Reverb.Tail]
+group=Хвост
+
+[Reverb.Tone]
+group=Тембр
+
+[Reverb.Size]
+label=Размер:
+
+[Reverb.Decay]
+label=Затухание:
+
+[Reverb.LowDecay]
+label=Затухание низа:
+
+[Reverb.HighDecay]
+label=Затухание верха:
+
+[Reverb.Damping]
+label=Демпфирование:
+
+[Reverb.Width]
+label=Ширина:
+
+[Reverb.Predelay]
+label=Предзадержка:
+
+[Reverb.LowCut]
+label=Срез низа:
+
+[Reverb.TailMix]
+label=Микс хвоста:
+
+[Reverb.Diffusion]
+label=Диффузия:
+
+[Reverb.Modulation]
+label=Модуляция:
+
+[Refine.Subsonic]
+group=Защита от субсоника
+enable=Включить
+
+[Refine.Subsonic.Mode]
+label=Режим:
+gentle=Gentle
+standard=Standard
+strict=Strict
+custom=Custom
+
+[Refine.Subsonic.Slope]
+label=Крутизна:
+natural12=Natural (12 dB/oct)
+balanced18=Balanced (18 dB/oct)
+strong24=Strong (24 dB/oct)
+
+[Refine.Subsonic.Cutoff]
+label=Частота среза
+
+[Refine.Ultrasonic]
+group=Ультразвуковое расширение
+enable=Включить
+
+[Refine.Ultrasonic.Amount]
+label=Количество:
+
+[Refine.FatigueGuard]
+group=Защита от утомления
+enable=Включить
+
+[Refine.FatigueGuard.Amount]
+label=Количество:
+
+[MonoToStereo]
+group=Моно в стерео
+enable=Включить
+
+[MonoToStereo.Mode]
+natural=Natural
+center_protect=Center Protect
+vintage=Vintage
+classical_stage=Classical Stage
+label=Режим:
+
+[MonoToStereo.Amount]
+label=Количество:
+
+[MonoToStereo.BassProtect]
+label=Защита баса:
+
+[ImageSpread]
+group=Расширение стереообраза
+enable=Включить
+
+[ImageSpread.Mode]
+natural=Natural
+old_recording=Old Recording
+label=Режим:
+vocal_protect=Vocal Protect
+
+[ImageSpread.Amount]
+label=Количество:
+
+[ImageSpread.BassProtect]
+label=Защита баса:
+
+[Headphone.Crossfeed]
+group=Crossfeed
+enable=Включить
+
+[Headphone.Crossfeed.Preset]
+gentle_blend=Gentle Blend
+balanced_blend=Balanced Blend
+speaker_blend=Speaker Blend
+label=Preset:
+
+[Headphone.Crossfeed.Amount]
+label=Количество:
+
+[Headphone.VirtualSpeakers]
+group=Виртуальные колонки
+enable=Включить
+
+[Headphone.VirtualSpeakers.Room]
+treated_studio=Обработанная студия
+furnished_room=Комната с мебелью
+wood_room=Деревянная комната
+live_room=Живая комната
+label=Комната:
+
+[Headphone.VirtualSpeakers.Speaker]
+nearfield_monitor=Ближний монитор
+studio_monitor=Студийный монитор
+coaxial_hi_fi=Коаксиальная Hi-Fi
+large_floorstander=Большая колонка
+label=Колонка:
+
+[Headphone.VirtualSpeakers.Angle]
+label=Угол:
+
+[Headphone.VirtualSpeakers.Distance]
+label=Расстояние:
+
+[Headphone.VirtualSpeakers.Strength]
+label=Интенсивность:
+
+[HeadphoneMatch.Profile]
+label=Профиль:
+import=Импортировать
+clear=Очистить
+
+[HeadphoneMatch.Band]
+prefix=Полоса
+
+[HeadphoneMatch.Amount]
+label=Количество:
+
+[HeadphoneMatch.Preamp]
+group=Предусилитель
+auto=Авто
+
+[Finish.Output]
+group=Финиш выхода
+loudness_match=Loudness Match
+
+[Finish.AutoHeadroom]
+enable=Auto Headroom
+
+[Finish.AutoHeadroom.Headroom]
+label=Headroom:
+
+[Finish.AutoHeadroom.Amount]
+label=Количество:
+
+[Finish.Preout]
+group=Pre-out Gain
+
+[Finish.Output.PreoutGain]
+label=Pre-out Gain:
+
+[Finish.SafetyLimiter]
+group=Защитный лимитер
+enable=Включить
+
+[Finish.SafetyLimiter.Mode]
+label=Режим:
+transparent=Transparent
+balanced=Balanced
+smooth=Smooth
+strict=Strict
+custom=Custom
+
+[Finish.SafetyLimiter.TruePeak]
+label=True Peak:
+off=Выкл.
+2=2x
+4=4x
+
+[Finish.SafetyLimiter.Ceiling]
+label=Потолок:
+
+[Finish.SafetyLimiter.Attack]
+label=Атака:
+
+[Finish.SafetyLimiter.Release]
+label=Восстановление:
+
+[Finish.SafetyLimiter.Lookahead]
+label=Упреждение:
+
+[Finish.SafetyLimiter.GainReduction]
+label=Gain Reduction:
+maximum=Макс.
+
+[Finish.Dither]
+group=Dither / Noise Shaping
+enable=Dither
+
+[Finish.Dither.BitDepth]
+label=Разрядность:
+16=16-bit
+24=24-bit
+
+[Finish.Dither.Algorithm]
+label=Алгоритм:
+tpdf=TPDF
+highpass_tpdf=HP-TPDF
+
+[Finish.Dither.NoiseShaping]
+label=Формирование шума:
+none=Нет
+highpass_2=ФВЧ 2-го порядка
+highpass_3=ФВЧ 3-го порядка
+psychoacoustic=Психоакустический
+psychoacoustic_plus=Психоакустический+
+
+[Saturation.Analyzer]
+group=СПЕКТР / ГАРМОНИКИ
+harmonic_activity=Активность гармоник
+even=Чётные
+odd=Нечётные
+input_legend=Вход
+output_legend=Выход
+waiting_audio=Ожидание звука
+
+[Shell]
+import_settings=Импортировать настройки...
+export_settings=Экспортировать настройки...
+reset_page=Сбросить страницу
+defaults=По умолчанию
+apply_required=Для некоторых изменений требуется «Применить»
+processing_order=ПОРЯДОК ОБРАБОТКИ
+about=Об Alauda
+help=Справка
+
+[Shell.Manual]
+unavailable=Не удалось открыть онлайн-руководство Alauda.\n\nПроверьте подключение к интернету и браузер, используемый по умолчанию.
+
+[Shell.PageList]
+open=Открыть список страниц
+pin=Закрепить список страниц
+unpin=Открепить список страниц
+
+[Shell.Theme]
+label=Тема
+system=Системная
+dark=Тёмная
+light=Светлая
+high_contrast=Высокая контрастность
+
+[Shell.UiScale]
+label=Масштаб интерфейса
+
+[Shell.SettingsFile]
+open_failed=Не удалось открыть файл настроек.
+invalid_size=Файл настроек имеет недопустимый размер.
+read_failed=Не удалось прочитать файл настроек.
+create_failed=Не удалось создать файл настроек.
+write_failed=Не удалось записать файл настроек.
+invalid_format=Это недопустимый файл настроек Alauda или он использует неподдерживаемую версию.
+
+[Shell.InitError]
+shell_title=Не удалось инициализировать оболочку настроек JUCE
+shell_detail=Настройки не изменены. Отмените операцию и перезагрузите Alauda перед новой попыткой.
+pages_title=Не удалось инициализировать настройки Alauda
+pages_detail_prefix=Не удалось создать следующие страницы JUCE:
+pages_detail_suffix=. Применение настроек отключено. Отмените операцию и перезагрузите Alauda перед новой попыткой.
+
+[Shell.LanguageReport]
+title=Папка языков Alauda
+coverage_heading=Переведённых строк в каждом языковом файле:
+rejected_heading=Эти файлы не загружены:
+reason_unreadable=файл невозможно прочитать
+reason_version=неподдерживаемая версия формата
+reason_invalid_id=идентификатор языка недействителен
+reason_reserved_id=идентификатор "en" зарезервирован для встроенного английского
+reason_no_entries=нет пригодных переводов; убедитесь, что файл сохранён в UTF-8
+reason_line_too_long=слишком длинная строка
+reason_string_too_long=слишком длинный перевод

@@ -1,0 +1,117 @@
+================================================================
+ Alauda DSP - Third-party notices / 第三者ソフトウェアについて
+================================================================
+
+Alauda itself is distributed under the terms in EULA_jp.txt and EULA_en.txt.
+It also incorporates the third-party software listed below, each
+covered by its own terms.
+
+Alauda 本体は EULA_jp.txt / EULA_en.txt の条項に従います。あわせて、以下の第三者
+ソフトウェアを利用しており、それぞれの条項が適用されます。
+
+
+----------------------------------------------------------------
+ JUCE
+----------------------------------------------------------------
+
+  Raw Material Software Limited
+  https://juce.com
+
+Alauda's preferences interface is built with JUCE 9.0.1 and is
+distributed under the JUCE 9 Starter licence, subject to the JUCE 9
+End User Licence Agreement.
+
+Alauda の設定画面は JUCE 9.0.1 を用いて構築されており、JUCE 9
+Starter ライセンスおよび JUCE 9 エンドユーザーライセンス契約の
+条項に従って配布しています。
+
+  Version / バージョン : JUCE 9.0.1
+  Modules / モジュール : juce_core, juce_events, juce_data_structures,
+                         juce_graphics, juce_gui_basics
+
+The governing terms are the JUCE 9 End User Licence Agreement:
+  https://juce.com/legal/juce-9-licence/
+
+The Windows JUCE build used by Alauda also incorporates the following
+components, each under its own licence:
+
+  - zlib — zlib License
+  - libpng — PNG Reference Library License
+  - Independent JPEG Group JPEG software — IJG license
+  - HarfBuzz — Old MIT license
+  - SheenBidi — Apache License 2.0
+  - LunaSVG — MIT License
+  - PlutoVG — MIT License
+
+This software is based in part on the work of the Independent JPEG Group.
+The corresponding notices are retained in the vendored JUCE source tree and
+are summarised in licenses/JUCE_LICENSE.md. The complete collected license and
+notice texts are supplied in licenses/JUCE_EMBEDDED_LICENSES.md. These
+components are separate from Alauda's own licence.
+
+JUCE's complete distribution contains additional optional modules and
+dependencies that Alauda does not build or distribute, including AudioUnitSDK,
+Oboe, FLAC, Ogg Vorbis, CHOC/QuickJS, LV2, AAX, VST3, Box2D, and ASIO.
+
+Windows版の JUCE ビルドは、次のコンポーネントも内部で使用しています。
+それぞれAlauda本体とは別のライセンスが適用されます。
+
+  - zlib — zlib License
+  - libpng — PNG Reference Library License
+  - Independent JPEG Group JPEG software — IJG license
+  - HarfBuzz — Old MIT license
+  - SheenBidi — Apache License 2.0
+  - LunaSVG — MIT License
+  - PlutoVG — MIT License
+
+Independent JPEG Group のバイナリ再配布に必要な表示:
+  This software is based in part on the work of the Independent JPEG Group.
+
+JUCE完全版に含まれる追加の任意モジュールや依存物のうち、
+AudioUnitSDK、Oboe、FLAC、Ogg Vorbis、CHOC/QuickJS、LV2、AAX、VST3、
+Box2D、ASIOなどは、Alaudaではビルドも配布もしていません。
+
+The Alauda JUCE licence summary is supplied as
+licenses/JUCE_LICENSE.md. This summary does not replace the official
+JUCE 9 End User Licence Agreement.
+
+適用される条項は JUCE 9 エンドユーザーライセンス契約です。
+  https://juce.com/legal/juce-9-licence/
+
+Alauda 用の JUCE ライセンス概要は licenses/JUCE_LICENSE.md として
+同梱します。この概要は公式の JUCE 9 エンドユーザーライセンス契約
+に代わるものではありません。
+
+組み込まれている第三者コンポーネントのライセンスおよび通知の全文は
+licenses/JUCE_EMBEDDED_LICENSES.md に収録しています。
+
+
+----------------------------------------------------------------
+ foobar2000 SDK
+----------------------------------------------------------------
+
+  the foobar2000 project
+  https://www.foobar2000.org
+
+Alauda is a foobar2000 component and is built against the foobar2000
+SDK, which is distributed by the foobar2000 project under its own
+terms.
+
+foobar2000 itself is not part of Alauda and is not distributed with
+it.
+
+Alauda は foobar2000 のコンポーネントであり、foobar2000 SDK を用いて
+ビルドされています。SDK は foobar2000 プロジェクトによって独自の条項の
+もとで配布されています。
+
+foobar2000 本体は Alauda の一部ではなく、Alauda と共に配布される
+ものでもありません。
+
+
+----------------------------------------------------------------
+
+If you believe something is missing from this file, please report it.
+記載漏れにお気づきの場合はご連絡ください。
+
+
+================================================================

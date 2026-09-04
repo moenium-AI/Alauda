@@ -1,0 +1,917 @@
+﻿# Alauda language file - Japanese (UTF-8).
+#
+# Put this file in <foobar2000 profile>\languages, not next to the component
+# DLL. Open Folder on the Profiles page opens the folder Alauda actually reads.
+#
+# Save as UTF-8 or every value is lost. A value cannot end in a space.
+# See alauda_en_template.lng for the full translation instructions.
+
+[AlaudaLanguage]
+id=ja-JP
+name=日本語
+version=1
+
+[Common]
+ok=OK
+cancel=キャンセル
+apply=適用
+
+[Preset.Manager]
+save_as=名前を付けて保存...
+import=ユーザープリセットをインポート...
+open_folder=フォルダーを開く
+load=読み込み
+delete=選択したユーザープリセットを削除
+close=閉じる
+
+[Navigation.Page]
+profiles=プロファイル
+resampler=リサンプラー
+reconstruction=波形再構成
+dynamics=ダイナミクス
+enhance=エンハンス
+analog=アナログ感
+saturation=サチュレーション
+eq=EQ
+reverb=リバーブ
+refine=仕上げ補正
+stereo_image=ステレオ定位
+headphone=ヘッドホン
+headphone_match=ヘッドホン・マッチ
+finish=出力
+
+[Profiles.Genre]
+group=ジャンルプロファイル
+label=ジャンル:
+classical=クラシック
+jazz=ジャズ
+pop=ポップ
+rock=ロック
+rn_b_soul=R&B / ソウル
+electronic_synth=電子音楽 / シンセ
+folk_acoustic=フォーク / アコースティック
+new_age_ambient=ニューエイジ / アンビエント
+j_pop_anime_song=J-POP / アニメソング
+film_soundtrack=映画 / サウンドトラック
+custom=カスタム
+
+[Genre.Preset]
+manage=プリセットを管理...
+delete_confirm=選択したジャンル・ユーザープリセットを削除しますか？
+file_invalid=有効なAlaudaジャンル・ユーザープリセットではありません。
+file_io_failed=ジャンル・プリセットファイルを読み書きできませんでした。
+manager_title=ジャンル・プリセット
+manager_empty=ジャンルのユーザープリセットがありません。保存またはインポートしてください。
+
+[Profiles.Resampler]
+group=リサンプラープロファイル
+
+[Profiles.Resampler.Factor]
+label=倍率:
+
+[Profiles.Upsample]
+off=OFF
+2=x2
+4=x4
+8=x8
+16=x16
+
+[Profiles.Phase]
+label=位相:
+
+[Profiles.FilterPreset]
+label=フィルタープリセット:
+eco=Eco
+core=Core
+standard=Standard
+studio=Studio
+reference=Reference
+ultra=Ultra
+apex=Apex
+custom=Custom
+
+[Profiles.OutputLimits]
+group=出力上限
+
+[Profiles.OutputLimits.SampleRateCap]
+enable=出力サンプルレートを制限
+
+[Profiles.OutputLimits.SampleRateMax]
+label=最大 (kHz):
+
+[Profiles.OutputLimits.Preview]
+label=プレビュー:
+as_requested=要求どおり
+
+[Profiles.Language]
+group=言語設定
+label=言語:
+
+[Profiles.Language.Folder]
+open=フォルダーを開く
+
+[Resampler]
+enable=有効
+
+[Resampler.Conversion]
+group=変換設定
+
+[Resampler.OutputRate]
+label=出力レート:
+
+[Resampler.Phase]
+linear=線形位相
+mixed=混合位相
+minimum=最小位相
+maximum=最大位相
+label=位相:
+
+[Resampler.Engine]
+direct=Direct
+cascade=Cascade
+label=エンジン:
+
+[Resampler.OutputCap]
+label=出力上限
+no_limit=制限なし
+
+[Resampler.FilterDesign]
+group=フィルター設計
+
+[Resampler.Quality]
+eco_96=Eco (96 dB)
+core_120=Core (120 dB)
+standard_144=Standard (144 dB)
+studio_168=Studio (168 dB)
+reference_192=Reference (192 dB)
+ultra_216=Ultra (216 dB)
+apex_240=Apex (240 dB)
+label=品質:
+
+[Resampler.Bandwidth]
+label=帯域幅:
+
+[Resampler.Ab]
+resampler_only=リサンプラーのみ (A/B)
+
+[Resampler.Analyzer]
+group=フィルター応答 / 設計ターゲット
+
+[Resampler.CommonRates]
+group=一般的な入力レートでの実効出力
+requested=指定
+
+[Resampler.Response]
+passband=-3 dB帯域
+flat_to=平坦域
+stopband=阻止帯域
+stopband_edge=阻止帯域端
+
+[Resampler.Route]
+direct=Direct (単段)
+cascade=Cascade (多段)
+
+[Resampler.Status]
+bypassed=バイパス
+active=動作中
+
+[Reconstruction]
+enable=有効
+
+[Reconstruction.Toolbar]
+title=波形再構成
+
+[Reconstruction.Mode]
+natural_shape=Natural Shape
+smooth_continuity=Smooth Continuity
+balanced_shape=Balanced Shape
+edge_focus=Edge Focus
+fine_detail=Fine Detail
+tail_restore=Tail Restore
+label=モード:
+
+[Reconstruction.Strength]
+label=強さ:
+
+[Reconstruction.Activity]
+group=アクティビティ
+active=動作中
+ready=待機
+bypassed=バイパス
+waiting_audio=ライブ音声を待っています。再生を開始してください
+current_level=現在のレベル
+
+[Dynamics.Restoration]
+group=ダイナミクス復元
+
+[Dynamics]
+enable=有効
+
+[Dynamics.Mode]
+gentle=Gentle
+standard=Standard
+repair=Repair
+label=モード:
+
+[Dynamics.Strength]
+label=強さ:
+
+[Dynamics.Response]
+group=動作特性
+
+[Dynamics.Density]
+label=密度:
+
+[Dynamics.RestoreActivity]
+group=復元動作
+loudness_spent=音量の低下
+tonal_cut=帯域の最大減衰
+active=動作中
+ready=待機
+
+[Enhance.Main]
+group=エンハンス
+
+[Enhance]
+enable=有効
+level_match=レベルマッチ
+
+[Enhance.Preset]
+custom=Custom
+clean=Clean Lift
+smooth=Smooth Body
+rich=Rich Harmonics
+forward=Forward Presence
+warm=Warm Body
+energy_push=Energy Push
+acoustic=Acoustic Body
+vocal=Vocal
+airy=Airy
+label=プリセット:
+manage=プリセットを管理...
+delete_confirm=選択したエンハンス・ユーザープリセットを削除しますか？
+file_invalid=有効なAlaudaエンハンス・ユーザープリセットではありません。
+file_io_failed=エンハンス・プリセットファイルを読み書きできませんでした。
+manager_title=エンハンス・プリセット
+manager_empty=エンハンスのユーザープリセットがありません。保存またはインポートしてください。
+
+[Enhance.Strength]
+label=強さ:
+
+[Enhance.VocalFocus]
+label=ボーカル・フォーカス:
+
+[Enhance.Core]
+off=OFF
+velvet=Velvet
+triode_se=Triode SE
+triode_pp=Triode PP
+pentode_se=Pentode SE
+pentode_pp=Pentode PP
+op_amp=Op-Amp
+transistor=Transistor
+diode=Diode
+tape_vintage=Vintage Tape
+tape_modern=Modern Tape
+tape_tube=Tube Tape
+
+[Enhance.Core.Low]
+label=Low
+
+[Enhance.Core.LowMid]
+label=Low Mid
+
+[Enhance.Core.Mid]
+label=Mid
+
+[Enhance.Core.High]
+label=High
+
+[Enhance.Core.Air]
+label=Air
+
+[Enhance.Band]
+group=帯域
+
+[Enhance.Band.Selected]
+label=帯域:
+
+[Enhance.Band.Frequency]
+label=周波数:
+
+[Enhance.Band.Width]
+label=帯域の幅:
+
+[Enhance.Band.Amount]
+label=効果量:
+
+[Enhance.Band.Drive]
+label=ドライブ:
+
+[Enhance.Band.Taming]
+label=抑制:
+
+[Analog]
+enable=有効
+level_match=レベルマッチ
+safety_clip=セーフティクリップ
+
+[Analog.Preset]
+analog_balance=Analog Balance
+center_focus=Center Focus
+smooth_glue=Smooth Glue
+wide_field=Wide Field
+smooth_air=Smooth Air
+bass_punch=Bass Punch
+custom=Custom
+label=プリセット:
+manage=プリセットを管理...
+delete_confirm=選択したアナログ・ユーザープリセットを削除しますか？
+file_invalid=有効なAlaudaアナログ・ユーザープリセットではありません。
+file_io_failed=アナログ・プリセットファイルを読み書きできませんでした。
+manager_title=アナログ・プリセット
+manager_empty=アナログのユーザープリセットがありません。保存またはインポートしてください。
+
+[Analog.Strength]
+label=強さ:
+
+[Analog.InputGain]
+label=入力ゲイン:
+
+[Analog.OutputGain]
+label=出力ゲイン:
+
+[Analog.Air]
+group=エア
+
+[Analog.AirSmooth]
+enable=エア・スムーズ
+side_only=サイドのみ
+
+[Analog.AirSmooth.Split]
+label=帯域境界 (Hz):
+
+[Analog.AirSmooth.Shape]
+label=シェイプ (Hz):
+
+[Analog.AirSmooth.Amount]
+label=スムーズ効果量:
+
+[Analog.AirWidth]
+label=高域の広がり:
+
+[Analog.Detail]
+group=アナログの細部
+
+[Analog.Glue]
+label=グルー (サグ):
+
+[Analog.LowWeight]
+label=低域の重み:
+
+[Analog.WidthProtect]
+label=広がり保護:
+
+[Analog.Crosstalk]
+label=クロストーク:
+
+[Analog.WowFlutter]
+label=ワウ / フラッター:
+
+[Analog.Analyzer]
+group=ライブスペクトラム / 変化量
+input_legend=入力
+output_legend=出力
+delta_legend=変化量
+waiting_audio=オーディオ入力待機中
+
+[Analog.Meter]
+group=アナログ・メーター
+
+[Analog.Gain]
+group=ゲイン
+
+[Saturation.Main]
+group=サチュレーション
+
+[Saturation]
+enable=有効
+level_match=レベルマッチ
+
+[Saturation.Mode]
+tape_7_5_ips=Tape - 7.5 ips
+tape_15_ips=Tape - 15 ips
+tape_30_ips=Tape - 30 ips
+triode_single_ended=Triode - Single-Ended
+triode_push_pull=Triode - Push-Pull
+pentode_single_ended=Pentode - Single-Ended
+pentode_push_pull=Pentode - Push-Pull
+transformer_steel=Transformer - Steel
+transformer_nickel=Transformer - Nickel
+label=モード:
+
+[Saturation.Character]
+group=キャラクター
+custom=Custom
+slow_warmth=Warmth
+slow_glue=Glue
+studio_body=Body
+studio_drive=Drive
+master_clean=Clean
+master_punch=Punch
+single_velvet=Velvet
+single_body=Body
+single_drive=Drive
+balanced_glow=Glow
+balanced_presence=Presence
+balanced_drive=Drive
+single_edge=Edge
+single_bite=Bite
+balanced_clear=Clear
+steel_warmth=Warmth
+steel_weight=Weight
+steel_drive=Drive
+nickel_clarity=Clarity
+nickel_focus=Focus
+nickel_drive=Drive
+label=キャラクター:
+
+[Saturation.Preset]
+manage=プリセットを管理...
+delete_confirm=選択したサチュレーション・ユーザープリセットを削除しますか？
+file_invalid=有効なAlaudaサチュレーション・ユーザープリセットではありません。
+file_io_failed=サチュレーション・プリセットファイルを読み書きできませんでした。
+manager_title=サチュレーション・プリセット
+manager_empty=サチュレーションのユーザープリセットがありません。保存またはインポートしてください。
+
+[Saturation.Quality]
+light=Light
+standard=Standard
+high=High
+ultra=Ultra
+label=品質:
+
+[Saturation.Strength]
+label=強さ:
+
+[Saturation.InputGain]
+label=入力ゲイン:
+
+[Saturation.OutputGain]
+label=出力ゲイン:
+
+[Saturation.BandColor]
+group=バンドカラー
+
+[Saturation.Drive]
+label=ドライブ:
+
+[Saturation.Low]
+label=低域:
+
+[Saturation.Mid]
+label=中域:
+
+[Saturation.High]
+label=高域:
+
+[Saturation.Mix]
+label=ミックス:
+
+[Saturation.Asymmetry]
+label=非対称:
+
+[EQ.Main]
+group=EQ
+
+[EQ]
+enable=有効
+
+[EQ.Preset]
+neutral=Flat Response
+acoustic=Acoustic Balance
+warm=Warm Body
+smooth=Smooth Tone
+clear=Clear Presence
+vocal=Vocal Presence
+forward=Forward Presence
+air=Air Lift
+custom=Custom
+gentle_clear=Gentle Clear
+vocal_polish=Vocal Polish
+mid_fullness=Mid Fullness
+tight_low_end=Tight Low End
+deep_bass=Deep Bass
+groove_pocket=Groove Pocket
+synth_punch=Synth Punch
+pop_polish=Pop Polish
+soft_air=Soft Air
+sparkle=Top Sparkle
+loudness=Loudness Curve
+night=Night Trim
+cinema_depth=Cinema Depth
+vintage_mid=Vintage Mid
+label=プリセット:
+manage=プリセットを管理...
+delete_confirm=選択したEQユーザープリセットを削除しますか？
+file_invalid=有効なAlauda EQユーザープリセットではありません。
+file_io_failed=EQプリセットファイルを読み書きできませんでした。
+manager_title=EQプリセット
+manager_empty=EQのユーザープリセットがありません。保存またはインポートしてください。
+
+[EQ.Band]
+sub=Sub
+bass=Bass
+low_mid=Low-Mid
+mid=Mid
+high_mid=High-Mid
+presence=Presence
+brilliance=Brilliance
+air=Air
+group=選択帯域
+enabled=有効
+
+[EQ.Band.Selected]
+label=帯域:
+
+[EQ.Type]
+low_shelf=Low Shelf
+bell=Bell
+high_shelf=High Shelf
+notch=Notch
+high_pass=HPF
+low_pass=LPF
+label=タイプ:
+
+[EQ.Frequency]
+label=周波数:
+
+[EQ.Gain]
+label=ゲイン:
+
+[EQ.Q]
+label=Q:
+
+[EQ.OutputGain]
+label=出力ゲイン:
+
+[Reverb.Main]
+group=リバーブ
+
+[Reverb]
+enable=有効
+
+[Reverb.Mode]
+ambience=Ambience
+room=Room
+chamber=Chamber
+hall=Hall
+plate=Plate
+label=モード:
+
+[Reverb.Character]
+custom=Custom
+label=キャラクター:
+
+[Reverb.Preset]
+tight_ambience=Tight Ambience
+open_ambience=Open Ambience
+diffuse_ambience=Diffuse Ambience
+studio_room=Studio Room
+natural_room=Natural Room
+live_room=Live Room
+small_chamber=Small Chamber
+medium_chamber=Medium Chamber
+large_chamber=Large Chamber
+echo_chamber=Echo Chamber
+small_hall=Small Hall
+medium_hall=Medium Hall
+concert_hall=Concert Hall
+grand_hall=Grand Hall
+vintage_plate=Vintage Plate
+bright_plate=Bright Plate
+vocal_plate=Vocal Plate
+label=プリセット:
+manage=プリセットを管理...
+delete_confirm=選択したリバーブ・ユーザープリセットを削除しますか？
+file_invalid=有効なAlaudaリバーブ・ユーザープリセットではありません。
+file_io_failed=リバーブ・プリセットファイルを読み書きできませんでした。
+manager_title=リバーブ・プリセット
+manager_empty=リバーブのユーザープリセットがありません。保存またはインポートしてください。
+
+[Reverb.Quality]
+light=Light
+standard=Standard
+high=High
+label=品質:
+
+[Reverb.Amount]
+label=効果量:
+
+[Reverb.Preview]
+group=リバーブ・プレビュー
+early=初期反射
+tail=テール
+
+[Reverb.Space]
+group=空間
+
+[Reverb.Tail]
+group=テール
+
+[Reverb.Tone]
+group=音色
+
+[Reverb.Size]
+label=サイズ:
+
+[Reverb.Decay]
+label=ディケイ:
+
+[Reverb.LowDecay]
+label=ロー・ディケイ:
+
+[Reverb.HighDecay]
+label=ハイ・ディケイ:
+
+[Reverb.Damping]
+label=ダンピング:
+
+[Reverb.Width]
+label=広がり:
+
+[Reverb.Predelay]
+label=プリディレイ:
+
+[Reverb.LowCut]
+label=低域カット:
+
+[Reverb.TailMix]
+label=テール・ミックス:
+
+[Reverb.Diffusion]
+label=ディフュージョン:
+
+[Reverb.Modulation]
+label=モジュレーション:
+
+[Refine.Subsonic]
+group=超低域ガード
+enable=有効
+
+[Refine.Subsonic.Mode]
+label=モード:
+gentle=Gentle
+standard=Standard
+strict=Strict
+custom=Custom
+
+[Refine.Subsonic.Slope]
+label=傾き:
+natural12=Natural (12 dB/oct)
+balanced18=Balanced (18 dB/oct)
+strong24=Strong (24 dB/oct)
+
+[Refine.Subsonic.Cutoff]
+label=カットオフ:
+
+[Refine.Ultrasonic]
+group=超高域補完
+enable=有効
+
+[Refine.Ultrasonic.Amount]
+label=効果量:
+
+[Refine.FatigueGuard]
+group=聴き疲れガード
+enable=有効
+
+[Refine.FatigueGuard.Amount]
+label=効果量:
+
+[MonoToStereo]
+group=モノラルをステレオ化
+enable=有効
+
+[MonoToStereo.Mode]
+natural=Natural
+center_protect=Center Protect
+vintage=Vintage
+classical_stage=Classical Stage
+label=モード:
+
+[MonoToStereo.Amount]
+label=効果量:
+
+[MonoToStereo.BassProtect]
+label=低域保護:
+
+[ImageSpread]
+group=広がり補正
+enable=有効
+
+[ImageSpread.Mode]
+natural=Natural
+old_recording=Old Recording
+label=モード:
+vocal_protect=Vocal Protect
+
+[ImageSpread.Amount]
+label=効果量:
+
+[ImageSpread.BassProtect]
+label=低域保護:
+
+[Headphone.Crossfeed]
+group=クロスフィード
+enable=有効
+
+[Headphone.Crossfeed.Preset]
+gentle_blend=Gentle Blend
+balanced_blend=Balanced Blend
+speaker_blend=Speaker Blend
+label=プリセット:
+
+[Headphone.Crossfeed.Amount]
+label=効果量:
+
+[Headphone.VirtualSpeakers]
+group=仮想スピーカー
+enable=有効
+
+[Headphone.VirtualSpeakers.Room]
+treated_studio=吸音スタジオ
+furnished_room=家具のある部屋
+wood_room=木質ルーム
+live_room=ライブ・ルーム
+label=ルーム:
+
+[Headphone.VirtualSpeakers.Speaker]
+nearfield_monitor=ニアフィールド・モニター
+studio_monitor=スタジオ・モニター
+coaxial_hi_fi=同軸Hi-Fi
+large_floorstander=大型フロア型
+label=スピーカー:
+
+[Headphone.VirtualSpeakers.Angle]
+label=角度:
+
+[Headphone.VirtualSpeakers.Distance]
+label=距離:
+
+[Headphone.VirtualSpeakers.Strength]
+label=強さ:
+
+[HeadphoneMatch.Profile]
+label=プロファイル:
+import=読み込み
+clear=クリア
+
+[HeadphoneMatch.Band]
+prefix=帯域
+
+[HeadphoneMatch.Amount]
+label=効果量:
+
+[HeadphoneMatch.Preamp]
+group=プリアンプ
+auto=自動
+
+[Finish.Output]
+group=出力仕上げ
+loudness_match=ラウドネスマッチ
+
+[Finish.AutoHeadroom]
+enable=自動ヘッドルーム
+
+[Finish.AutoHeadroom.Headroom]
+label=ヘッドルーム:
+
+[Finish.AutoHeadroom.Amount]
+label=適用量:
+
+[Finish.Preout]
+group=出力前ゲイン
+
+[Finish.Output.PreoutGain]
+label=出力前ゲイン:
+
+[Finish.SafetyLimiter]
+group=出力保護リミッター
+enable=有効
+
+[Finish.SafetyLimiter.Mode]
+label=モード:
+transparent=Transparent
+balanced=Balanced
+smooth=Smooth
+strict=Strict
+custom=Custom
+
+[Finish.SafetyLimiter.TruePeak]
+label=トゥルーピーク:
+off=Off
+2=2x
+4=4x
+
+[Finish.SafetyLimiter.Ceiling]
+label=シーリング:
+
+[Finish.SafetyLimiter.Attack]
+label=アタック:
+
+[Finish.SafetyLimiter.Release]
+label=リリース:
+
+[Finish.SafetyLimiter.Lookahead]
+label=ルックアヘッド:
+
+[Finish.SafetyLimiter.GainReduction]
+label=ゲインリダクション:
+maximum=最大
+
+[Finish.Dither]
+group=出力ディザー / ノイズシェーピング
+enable=ディザー
+
+[Finish.Dither.BitDepth]
+label=ビット深度:
+16=16-bit
+24=24-bit
+
+[Finish.Dither.Algorithm]
+label=アルゴリズム:
+tpdf=TPDF
+highpass_tpdf=HP-TPDF
+
+[Finish.Dither.NoiseShaping]
+label=ノイズシェーピング:
+none=なし
+highpass_2=2次HP
+highpass_3=3次HP
+psychoacoustic=聴感補正
+psychoacoustic_plus=聴感補正+
+
+[Saturation.Analyzer]
+group=スペクトラム / 倍音構成
+harmonic_activity=倍音アクティビティ
+even=偶数次
+odd=奇数次
+input_legend=入力
+output_legend=出力
+waiting_audio=オーディオ入力待機中
+
+[Shell]
+import_settings=設定の読み込み...
+export_settings=設定の書き出し...
+reset_page=ページをリセット
+defaults=既定値
+apply_required=一部の変更にはApplyが必要です
+processing_order=処理順
+about=Alaudaについて
+help=ヘルプ
+
+[Shell.Manual]
+unavailable=Alaudaオンラインマニュアルを開けませんでした。\n\nインターネット接続と既定のWebブラウザーを確認してください。
+
+[Shell.PageList]
+open=ページ一覧を表示
+pin=ページ一覧を固定表示
+unpin=ページ一覧の固定を解除
+
+[Shell.Theme]
+label=テーマ
+system=システム
+dark=ダーク
+light=ライト
+high_contrast=高コントラスト
+
+[Shell.UiScale]
+label=表示倍率
+
+[Shell.SettingsFile]
+open_failed=設定ファイルを開けませんでした。
+invalid_size=設定ファイルのサイズが正しくありません。
+read_failed=設定ファイルを読み込めませんでした。
+create_failed=設定ファイルを作成できませんでした。
+write_failed=設定ファイルを書き込めませんでした。
+invalid_format=有効なAlauda設定ファイルではないか、未対応のバージョンです。
+
+[Shell.InitError]
+shell_title=設定画面のJUCEシェルを初期化できませんでした
+shell_detail=設定は変更されていません。キャンセルしてAlaudaを再読み込みしてください。
+pages_title=設定画面を初期化できませんでした
+pages_detail_prefix=次のJUCEページを作成できませんでした:
+pages_detail_suffix=。設定の適用は無効化されています。キャンセルしてAlaudaを再読み込みしてください。
+
+[Shell.LanguageReport]
+title=Alauda言語フォルダー
+coverage_heading=言語ファイルごとの翻訳済み文字列:
+rejected_heading=次のファイルは読み込まれませんでした:
+reason_unreadable=ファイルを読み取れません
+reason_version=未対応のフォーマットバージョンです
+reason_invalid_id=言語IDが正しくありません
+reason_reserved_id=ID "en" は組み込みの英語用に予約されています
+reason_no_entries=利用できる翻訳がありません。UTF-8で保存されているか確認してください
+reason_line_too_long=行が長すぎます
+reason_string_too_long=翻訳文が長すぎます

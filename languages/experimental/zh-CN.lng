@@ -1,0 +1,915 @@
+﻿# Alauda language file - 简体中文 (Experimental Simplified Chinese, UTF-8).
+#
+# Experimental localization generated from alauda_en_template.lng.
+# Put this file in <foobar2000 profile>\languages.
+# Save as UTF-8. About page text and Diagnostics remain English-only.
+
+[AlaudaLanguage]
+id=zh-CN
+name=简体中文
+version=1
+
+[Common]
+ok=确定
+cancel=取消
+apply=应用
+
+[Preset.Manager]
+save_as=另存为...
+import=导入用户预设...
+open_folder=文件夹...
+load=加载
+delete=删除所选用户预设
+close=关闭
+
+[Navigation.Page]
+profiles=配置文件
+resampler=重采样器
+reconstruction=波形重构
+dynamics=动态
+enhance=增强
+analog=模拟
+saturation=饱和
+eq=EQ
+reverb=混响
+refine=精修
+stereo_image=立体声声像
+headphone=耳机
+headphone_match=耳机匹配
+finish=输出
+
+[Profiles.Genre]
+group=流派配置文件
+label=流派:
+classical=古典
+jazz=爵士
+pop=流行
+rock=摇滚
+rn_b_soul=R&B / 灵魂乐
+electronic_synth=电子 / 合成器
+folk_acoustic=民谣 / 原声
+new_age_ambient=新世纪 / 氛围
+j_pop_anime_song=J-POP / 动漫歌曲
+film_soundtrack=电影 / 原声带
+custom=自定义
+
+[Genre.Preset]
+manage=管理预设...
+delete_confirm=删除所选流派用户预设？
+file_invalid=这不是有效的 Alauda 流派用户预设。
+file_io_failed=无法读取或写入流派预设文件。
+manager_title=流派预设
+manager_empty=没有流派用户预设。请保存或导入一个以开始使用。
+
+[Profiles.Resampler]
+group=重采样器配置文件
+
+[Profiles.Resampler.Factor]
+label=倍率:
+
+[Profiles.Upsample]
+off=关闭
+2=x2
+4=x4
+8=x8
+16=x16
+
+[Profiles.Phase]
+label=相位:
+
+[Profiles.FilterPreset]
+label=滤波器预设:
+eco=Eco
+core=Core
+standard=Standard
+studio=Studio
+reference=Reference
+ultra=Ultra
+apex=Apex
+custom=Custom
+
+[Profiles.OutputLimits]
+group=输出限制
+
+[Profiles.OutputLimits.SampleRateCap]
+enable=限制输出采样率
+
+[Profiles.OutputLimits.SampleRateMax]
+label=最大 (kHz):
+
+[Profiles.OutputLimits.Preview]
+label=预览:
+as_requested=按请求
+
+[Profiles.Language]
+group=语言设置
+label=语言:
+
+[Profiles.Language.Folder]
+open=打开文件夹
+
+[Resampler]
+enable=启用
+
+[Resampler.Conversion]
+group=转换
+
+[Resampler.OutputRate]
+label=输出采样率:
+
+[Resampler.Phase]
+linear=线性
+mixed=混合
+minimum=最小
+maximum=最大
+label=相位:
+
+[Resampler.Engine]
+direct=Direct
+cascade=Cascade
+label=引擎:
+
+[Resampler.OutputCap]
+label=输出上限
+no_limit=无
+
+[Resampler.FilterDesign]
+group=滤波器设计
+
+[Resampler.Quality]
+eco_96=Eco (96 dB)
+core_120=Core (120 dB)
+standard_144=Standard (144 dB)
+studio_168=Studio (168 dB)
+reference_192=Reference (192 dB)
+ultra_216=Ultra (216 dB)
+apex_240=Apex (240 dB)
+label=质量:
+
+[Resampler.Bandwidth]
+label=带宽:
+
+[Resampler.Ab]
+resampler_only=仅重采样器 (A/B)
+
+[Resampler.Analyzer]
+group=滤波器响应 / 设计目标
+
+[Resampler.CommonRates]
+group=常见输入采样率下的实际输出
+requested=请求值
+
+[Resampler.Response]
+passband=-3 dB 带宽
+flat_to=平坦至
+stopband=阻带
+stopband_edge=阻带边缘
+
+[Resampler.Route]
+direct=直接 (单级)
+cascade=级联 (多级)
+
+[Resampler.Status]
+bypassed=已旁路
+active=运行中
+
+[Reconstruction]
+enable=启用
+
+[Reconstruction.Toolbar]
+title=波形重构
+
+[Reconstruction.Mode]
+natural_shape=Natural Shape
+smooth_continuity=Smooth Continuity
+balanced_shape=Balanced Shape
+edge_focus=Edge Focus
+fine_detail=Fine Detail
+tail_restore=Tail Restore
+label=模式:
+
+[Reconstruction.Strength]
+label=强度:
+
+[Reconstruction.Activity]
+group=活动
+active=运行中
+ready=就绪
+bypassed=已旁路
+waiting_audio=正在等待实时音频。开始播放后即可显示
+current_level=当前电平
+
+[Dynamics.Restoration]
+group=动态恢复
+
+[Dynamics]
+enable=启用
+
+[Dynamics.Mode]
+gentle=Gentle
+standard=Standard
+repair=Repair
+label=模式:
+
+[Dynamics.Strength]
+label=强度:
+
+[Dynamics.Response]
+group=响应
+
+[Dynamics.Density]
+label=密度:
+
+[Dynamics.RestoreActivity]
+group=恢复活动
+loudness_spent=响度损失
+tonal_cut=音色衰减
+active=运行中
+ready=就绪
+
+[Enhance.Main]
+group=增强
+
+[Enhance]
+enable=启用
+level_match=电平匹配
+
+[Enhance.Preset]
+custom=Custom
+clean=Clean Lift
+smooth=Smooth Body
+rich=Rich Harmonics
+forward=Forward Presence
+warm=Warm Body
+energy_push=Energy Push
+acoustic=Acoustic Body
+vocal=Vocal
+airy=Airy
+label=预设:
+manage=管理预设...
+delete_confirm=删除所选增强用户预设？
+file_invalid=这不是有效的 Alauda 增强用户预设。
+file_io_failed=无法读取或写入增强预设文件。
+manager_title=增强预设
+manager_empty=没有增强用户预设。请保存或导入一个以开始使用。
+
+[Enhance.Strength]
+label=强度:
+
+[Enhance.VocalFocus]
+label=人声聚焦:
+
+[Enhance.Core]
+off=OFF
+velvet=Velvet
+triode_se=Triode SE
+triode_pp=Triode PP
+pentode_se=Pentode SE
+pentode_pp=Pentode PP
+op_amp=Op-Amp
+transistor=Transistor
+diode=Diode
+tape_vintage=Vintage Tape
+tape_modern=Modern Tape
+tape_tube=Tube Tape
+
+[Enhance.Core.Low]
+label=低频
+
+[Enhance.Core.LowMid]
+label=中低频
+
+[Enhance.Core.Mid]
+label=中频
+
+[Enhance.Core.High]
+label=高频
+
+[Enhance.Core.Air]
+label=空气感
+
+[Enhance.Band]
+group=频段
+
+[Enhance.Band.Selected]
+label=频段:
+
+[Enhance.Band.Frequency]
+label=频率:
+
+[Enhance.Band.Width]
+label=宽度:
+
+[Enhance.Band.Amount]
+label=量:
+
+[Enhance.Band.Drive]
+label=驱动:
+
+[Enhance.Band.Taming]
+label=抑制:
+
+[Analog]
+enable=启用
+level_match=电平匹配
+safety_clip=安全削波
+
+[Analog.Preset]
+analog_balance=Analog Balance
+center_focus=Center Focus
+smooth_glue=Smooth Glue
+wide_field=Wide Field
+smooth_air=Smooth Air
+bass_punch=Bass Punch
+custom=Custom
+label=预设:
+manage=管理预设...
+delete_confirm=删除所选模拟用户预设？
+file_invalid=这不是有效的 Alauda 模拟用户预设。
+file_io_failed=无法读取或写入模拟预设文件。
+manager_title=模拟预设
+manager_empty=没有模拟用户预设。请保存或导入一个以开始使用。
+
+[Analog.Strength]
+label=强度:
+
+[Analog.InputGain]
+label=输入增益:
+
+[Analog.OutputGain]
+label=输出增益:
+
+[Analog.Air]
+group=空气感
+
+[Analog.AirSmooth]
+enable=空气感平滑
+side_only=仅侧声道
+
+[Analog.AirSmooth.Split]
+label=分频点 (Hz):
+
+[Analog.AirSmooth.Shape]
+label=形状 (Hz):
+
+[Analog.AirSmooth.Amount]
+label=平滑量:
+
+[Analog.AirWidth]
+label=空气感宽度:
+
+[Analog.Detail]
+group=模拟细节
+
+[Analog.Glue]
+label=融合 (压降):
+
+[Analog.LowWeight]
+label=低频重量:
+
+[Analog.WidthProtect]
+label=宽度保护:
+
+[Analog.Crosstalk]
+label=串扰:
+
+[Analog.WowFlutter]
+label=晃动/抖动:
+
+[Analog.Analyzer]
+group=实时频谱 / 模拟差值
+input_legend=输入
+output_legend=输出
+delta_legend=差值
+waiting_audio=正在等待音频
+
+[Analog.Meter]
+group=模拟仪表
+
+[Analog.Gain]
+group=增益
+
+[Saturation.Main]
+group=饱和
+
+[Saturation]
+enable=启用
+level_match=电平匹配
+
+[Saturation.Mode]
+tape_7_5_ips=Tape - 7.5 ips
+tape_15_ips=Tape - 15 ips
+tape_30_ips=Tape - 30 ips
+triode_single_ended=Triode - Single-Ended
+triode_push_pull=Triode - Push-Pull
+pentode_single_ended=Pentode - Single-Ended
+pentode_push_pull=Pentode - Push-Pull
+transformer_steel=Transformer - Steel
+transformer_nickel=Transformer - Nickel
+label=模式:
+
+[Saturation.Character]
+group=特性
+custom=Custom
+slow_warmth=Warmth
+slow_glue=Glue
+studio_body=Body
+studio_drive=Drive
+master_clean=Clean
+master_punch=Punch
+single_velvet=Velvet
+single_body=Body
+single_drive=Drive
+balanced_glow=Glow
+balanced_presence=Presence
+balanced_drive=Drive
+single_edge=Edge
+single_bite=Bite
+balanced_clear=Clear
+steel_warmth=Warmth
+steel_weight=Weight
+steel_drive=Drive
+nickel_clarity=Clarity
+nickel_focus=Focus
+nickel_drive=Drive
+label=特性:
+
+[Saturation.Preset]
+manage=管理预设...
+delete_confirm=删除所选饱和用户预设？
+file_invalid=这不是有效的 Alauda 饱和用户预设。
+file_io_failed=无法读取或写入饱和预设文件。
+manager_title=饱和预设
+manager_empty=没有饱和用户预设。请保存或导入一个以开始使用。
+
+[Saturation.Quality]
+light=Light
+standard=Standard
+high=High
+ultra=Ultra
+label=质量:
+
+[Saturation.Strength]
+label=强度:
+
+[Saturation.InputGain]
+label=输入增益:
+
+[Saturation.OutputGain]
+label=输出增益:
+
+[Saturation.BandColor]
+group=频段色彩
+
+[Saturation.Drive]
+label=驱动:
+
+[Saturation.Low]
+label=低频:
+
+[Saturation.Mid]
+label=中频:
+
+[Saturation.High]
+label=高频:
+
+[Saturation.Mix]
+label=混合:
+
+[Saturation.Asymmetry]
+label=不对称:
+
+[EQ.Main]
+group=EQ
+
+[EQ]
+enable=启用
+
+[EQ.Preset]
+neutral=Flat Response
+acoustic=Acoustic Balance
+warm=Warm Body
+smooth=Smooth Tone
+clear=Clear Presence
+vocal=Vocal Presence
+forward=Forward Presence
+air=Air Lift
+custom=Custom
+gentle_clear=Gentle Clear
+vocal_polish=Vocal Polish
+mid_fullness=Mid Fullness
+tight_low_end=Tight Low End
+deep_bass=Deep Bass
+groove_pocket=Groove Pocket
+synth_punch=Synth Punch
+pop_polish=Pop Polish
+soft_air=Soft Air
+sparkle=Top Sparkle
+loudness=Loudness Curve
+night=Night Trim
+cinema_depth=Cinema Depth
+vintage_mid=Vintage Mid
+label=预设:
+manage=管理预设...
+delete_confirm=删除所选EQ用户预设？
+file_invalid=这不是有效的 Alauda EQ用户预设。
+file_io_failed=无法读取或写入EQ预设文件。
+manager_title=EQ预设
+manager_empty=没有EQ用户预设。请保存或导入一个以开始使用。
+
+[EQ.Band]
+sub=超低频
+bass=低频
+low_mid=中低频
+mid=中频
+high_mid=中高频
+presence=存在感
+brilliance=辉煌感
+air=空气感
+group=所选频段
+enabled=已启用
+
+[EQ.Band.Selected]
+label=频段:
+
+[EQ.Type]
+low_shelf=低搁架
+bell=钟形
+high_shelf=高搁架
+notch=陷波
+high_pass=HPF
+low_pass=LPF
+label=类型:
+
+[EQ.Frequency]
+label=频率:
+
+[EQ.Gain]
+label=增益:
+
+[EQ.Q]
+label=Q:
+
+[EQ.OutputGain]
+label=输出增益:
+
+[Reverb.Main]
+group=混响
+
+[Reverb]
+enable=启用
+
+[Reverb.Mode]
+ambience=Ambience
+room=Room
+chamber=Chamber
+hall=Hall
+plate=Plate
+label=模式:
+
+[Reverb.Character]
+custom=Custom
+label=特性:
+
+[Reverb.Preset]
+tight_ambience=Tight Ambience
+open_ambience=Open Ambience
+diffuse_ambience=Diffuse Ambience
+studio_room=Studio Room
+natural_room=Natural Room
+live_room=Live Room
+small_chamber=Small Chamber
+medium_chamber=Medium Chamber
+large_chamber=Large Chamber
+echo_chamber=Echo Chamber
+small_hall=Small Hall
+medium_hall=Medium Hall
+concert_hall=Concert Hall
+grand_hall=Grand Hall
+vintage_plate=Vintage Plate
+bright_plate=Bright Plate
+vocal_plate=Vocal Plate
+label=预设:
+manage=管理预设...
+delete_confirm=删除所选混响用户预设？
+file_invalid=这不是有效的 Alauda 混响用户预设。
+file_io_failed=无法读取或写入混响预设文件。
+manager_title=混响预设
+manager_empty=没有混响用户预设。请保存或导入一个以开始使用。
+
+[Reverb.Quality]
+light=Light
+standard=Standard
+high=High
+label=质量:
+
+[Reverb.Amount]
+label=量:
+
+[Reverb.Preview]
+group=混响预览
+early=早期反射
+tail=尾响
+
+[Reverb.Space]
+group=空间
+
+[Reverb.Tail]
+group=尾响
+
+[Reverb.Tone]
+group=音色
+
+[Reverb.Size]
+label=大小:
+
+[Reverb.Decay]
+label=衰减:
+
+[Reverb.LowDecay]
+label=低频衰减:
+
+[Reverb.HighDecay]
+label=高频衰减:
+
+[Reverb.Damping]
+label=阻尼:
+
+[Reverb.Width]
+label=宽度:
+
+[Reverb.Predelay]
+label=预延迟:
+
+[Reverb.LowCut]
+label=低切:
+
+[Reverb.TailMix]
+label=尾响混合:
+
+[Reverb.Diffusion]
+label=扩散:
+
+[Reverb.Modulation]
+label=调制:
+
+[Refine.Subsonic]
+group=次声保护
+enable=启用
+
+[Refine.Subsonic.Mode]
+label=模式:
+gentle=Gentle
+standard=Standard
+strict=Strict
+custom=Custom
+
+[Refine.Subsonic.Slope]
+label=斜率:
+natural12=Natural (12 dB/oct)
+balanced18=Balanced (18 dB/oct)
+strong24=Strong (24 dB/oct)
+
+[Refine.Subsonic.Cutoff]
+label=截止频率:
+
+[Refine.Ultrasonic]
+group=超声扩展
+enable=启用
+
+[Refine.Ultrasonic.Amount]
+label=量:
+
+[Refine.FatigueGuard]
+group=听觉疲劳保护
+enable=启用
+
+[Refine.FatigueGuard.Amount]
+label=量:
+
+[MonoToStereo]
+group=单声道转立体声
+enable=启用
+
+[MonoToStereo.Mode]
+natural=Natural
+center_protect=Center Protect
+vintage=Vintage
+classical_stage=Classical Stage
+label=模式:
+
+[MonoToStereo.Amount]
+label=量:
+
+[MonoToStereo.BassProtect]
+label=低频保护:
+
+[ImageSpread]
+group=声像扩展
+enable=启用
+
+[ImageSpread.Mode]
+natural=Natural
+old_recording=Old Recording
+label=模式:
+vocal_protect=Vocal Protect
+
+[ImageSpread.Amount]
+label=量:
+
+[ImageSpread.BassProtect]
+label=低频保护:
+
+[Headphone.Crossfeed]
+group=交叉馈送
+enable=启用
+
+[Headphone.Crossfeed.Preset]
+gentle_blend=Gentle Blend
+balanced_blend=Balanced Blend
+speaker_blend=Speaker Blend
+label=预设:
+
+[Headphone.Crossfeed.Amount]
+label=量:
+
+[Headphone.VirtualSpeakers]
+group=虚拟扬声器
+enable=启用
+
+[Headphone.VirtualSpeakers.Room]
+treated_studio=声学处理录音室
+furnished_room=有家具房间
+wood_room=木质房间
+live_room=现场房间
+label=房间:
+
+[Headphone.VirtualSpeakers.Speaker]
+nearfield_monitor=近场监听音箱
+studio_monitor=录音室监听音箱
+coaxial_hi_fi=同轴 Hi-Fi
+large_floorstander=大型落地音箱
+label=扬声器:
+
+[Headphone.VirtualSpeakers.Angle]
+label=角度:
+
+[Headphone.VirtualSpeakers.Distance]
+label=距离:
+
+[Headphone.VirtualSpeakers.Strength]
+label=强度:
+
+[HeadphoneMatch.Profile]
+label=配置文件:
+import=导入
+clear=清除
+
+[HeadphoneMatch.Band]
+prefix=频段
+
+[HeadphoneMatch.Amount]
+label=量:
+
+[HeadphoneMatch.Preamp]
+group=前置放大
+auto=自动
+
+[Finish.Output]
+group=输出处理
+loudness_match=响度匹配
+
+[Finish.AutoHeadroom]
+enable=自动余量
+
+[Finish.AutoHeadroom.Headroom]
+label=余量:
+
+[Finish.AutoHeadroom.Amount]
+label=量:
+
+[Finish.Preout]
+group=前级输出增益
+
+[Finish.Output.PreoutGain]
+label=前级输出增益:
+
+[Finish.SafetyLimiter]
+group=安全限制器
+enable=启用
+
+[Finish.SafetyLimiter.Mode]
+label=模式:
+transparent=Transparent
+balanced=Balanced
+smooth=Smooth
+strict=Strict
+custom=Custom
+
+[Finish.SafetyLimiter.TruePeak]
+label=真峰值:
+off=关闭
+2=2x
+4=4x
+
+[Finish.SafetyLimiter.Ceiling]
+label=上限:
+
+[Finish.SafetyLimiter.Attack]
+label=启动:
+
+[Finish.SafetyLimiter.Release]
+label=释放:
+
+[Finish.SafetyLimiter.Lookahead]
+label=前瞻:
+
+[Finish.SafetyLimiter.GainReduction]
+label=增益衰减:
+maximum=最大
+
+[Finish.Dither]
+group=输出抖动 / 噪声整形
+enable=抖动
+
+[Finish.Dither.BitDepth]
+label=位深:
+16=16 位
+24=24 位
+
+[Finish.Dither.Algorithm]
+label=算法:
+tpdf=TPDF
+highpass_tpdf=HP-TPDF
+
+[Finish.Dither.NoiseShaping]
+label=噪声整形:
+none=无
+highpass_2=二阶高通
+highpass_3=三阶高通
+psychoacoustic=心理声学
+psychoacoustic_plus=心理声学+
+
+[Saturation.Analyzer]
+group=频谱 / 谐波特性
+harmonic_activity=谐波活动
+even=偶次
+odd=奇次
+input_legend=输入
+output_legend=输出
+waiting_audio=正在等待音频
+
+[Shell]
+import_settings=导入设置...
+export_settings=导出设置...
+reset_page=重置页面
+defaults=默认值
+apply_required=部分更改需要点击“应用”
+processing_order=处理顺序
+about=关于 Alauda
+help=帮助
+
+[Shell.Manual]
+unavailable=无法打开 Alauda 在线手册。\n\n请检查互联网连接和默认网页浏览器。
+
+[Shell.PageList]
+open=打开页面列表
+pin=固定页面列表
+unpin=取消固定页面列表
+
+[Shell.Theme]
+label=主题
+system=系统
+dark=深色
+light=浅色
+high_contrast=高对比度
+
+[Shell.UiScale]
+label=UI 缩放
+
+[Shell.SettingsFile]
+open_failed=无法打开设置文件。
+invalid_size=设置文件大小无效。
+read_failed=无法读取设置文件。
+create_failed=无法创建设置文件。
+write_failed=无法写入设置文件。
+invalid_format=这不是有效的 Alauda 设置文件，或其版本不受支持。
+
+[Shell.InitError]
+shell_title=无法初始化 JUCE 首选项界面
+shell_detail=设置未发生更改。请取消并重新加载 Alauda 后再试。
+pages_title=无法初始化 Alauda 首选项
+pages_detail_prefix=无法创建以下 JUCE 页面:
+pages_detail_suffix=。设置应用功能已禁用。请取消并重新加载 Alauda 后再试。
+
+[Shell.LanguageReport]
+title=Alauda 语言文件夹
+coverage_heading=每个语言文件的已翻译字符串数:
+rejected_heading=以下文件未加载:
+reason_unreadable=无法读取文件
+reason_version=不支持的格式版本
+reason_invalid_id=语言 ID 无效
+reason_reserved_id=ID “en” 保留给内置英语
+reason_no_entries=没有可用翻译；请确认文件以 UTF-8 保存
+reason_line_too_long=某一行过长
+reason_string_too_long=某条翻译过长
