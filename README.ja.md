@@ -92,6 +92,37 @@ Alauda より前に置かれた DSP の出力は Alauda に入力され、Alauda
 | --- | --- |
 | ![リバーブ](screenshots/alauda_screenshot/09_reverb_compact.png) | ![ヘッドホン](screenshots/alauda_screenshot/12_headphone_compact.png) |
 
+<details>
+<summary><strong>その他のスクリーンショット</strong></summary>
+
+<br>
+
+| リサンプラー | 波形再構成 |
+| --- | --- |
+| ![リサンプラー](screenshots/alauda_screenshot/02_resampler_compact.png) | ![波形再構成](screenshots/alauda_screenshot/03_reconstruction_compact.png) |
+
+| ダイナミクス復元 | エンハンス |
+| --- | --- |
+| ![ダイナミクス復元](screenshots/alauda_screenshot/04_dynamics_compact.png) | ![エンハンス](screenshots/alauda_screenshot/05_enhance_compact.png) |
+
+| アナログ感 | EQ |
+| --- | --- |
+| ![アナログ感](screenshots/alauda_screenshot/06_analog_compact.png) | ![EQ](screenshots/alauda_screenshot/08_eq_compact.png) |
+
+| 仕上げ補正 | ステレオ定位 |
+| --- | --- |
+| ![仕上げ補正](screenshots/alauda_screenshot/10_refine_compact.png) | ![ステレオ定位](screenshots/alauda_screenshot/11_stereo_image_compact.png) |
+
+| ヘッドホン・マッチ | 出力 |
+| --- | --- |
+| ![ヘッドホン・マッチ](screenshots/alauda_screenshot/13_headphone_match_compact.png) | ![出力](screenshots/alauda_screenshot/14_finish_compact.png) |
+
+| ダークテーマ | ハイコントラストテーマ |
+| --- | --- |
+| ![ダークテーマ](screenshots/alauda_screenshot/17_theme_dark.png) | ![ハイコントラストテーマ](screenshots/alauda_screenshot/18_theme_high_contrast.png) |
+
+</details>
+
 ## 動作環境
 
 | | |
