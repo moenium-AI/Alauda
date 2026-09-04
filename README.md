@@ -173,7 +173,9 @@ The **Help** command in the configuration window opens the manual page correspon
 
 ## Download and verification
 
-The latest version of Alauda is available from [GitHub Releases](../../releases/latest), the [product page](https://moenium.net/alauda/), or [BOOTH](https://moenium.booth.pm/items/8779312).
+The latest version of Alauda is available from
+[GitHub Releases](https://github.com/moenium-AI/Alauda/releases/latest)
+or [BOOTH](https://moenium.booth.pm/items/8779312).
 
 Each GitHub Release lists the distributed file name, checksums, and the corresponding VirusTotal scan result. To verify a downloaded archive, calculate its hash and compare it with the value listed for that release.
 

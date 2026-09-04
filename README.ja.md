@@ -170,7 +170,10 @@ Alauda より前に置かれた DSP の出力は Alauda に入力され、Alauda
 
 ## ダウンロードと検証
 
-Alauda の最新版は [GitHub Releases](../../releases/latest)、[製品ページ](https://moenium.net/alauda/)、または [BOOTH](https://moenium.booth.pm/items/8779312) から入手できます。
+Alauda の最新版は
+[GitHub Releases](https://github.com/moenium-AI/Alauda/releases/latest)
+または [BOOTH](https://moenium.booth.pm/items/8779312)
+から入手できます。
 
 各 GitHub Release には、そのリリースの配布ファイル名、チェックサム、VirusTotal のスキャン結果を掲載します。
 
