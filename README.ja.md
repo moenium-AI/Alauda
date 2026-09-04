@@ -192,12 +192,12 @@ Get-FileHash .\Alauda_*.zip -Algorithm SHA256
 - [オンラインマニュアル（日本語 / English）](https://moenium.net/alauda/manual/1.0/)
   - 各処理ステージの詳細
   - 全パラメーターの既定値と範囲
-- [更新履歴](Distribution/changelog.md)
-- [同梱 README（日本語）](Distribution/readme.txt)
-- [同梱 README（English）](Distribution/readme_en.txt)
-- [EULA（日本語）](Distribution/EULA_jp.txt)
-- [EULA（English）](Distribution/EULA_en.txt)
-- [サードパーティー表記](Distribution/third-party-notices.txt)
+- [更新履歴](distribution/changelog.md)
+- [同梱 README（日本語）](distribution/readme.txt)
+- [同梱 README（English）](distribution/readme_en.txt)
+- [EULA（日本語）](distribution/EULA_jp.txt)
+- [EULA（English）](distribution/EULA_en.txt)
+- [サードパーティー表記](distribution/third-party-notices.txt)
 
 ## プリセットと言語
 
@@ -256,7 +256,7 @@ Alauda は**プロプライエタリなフリーソフトウェア**です。個
 
 言語ファイルとプリセットファイルを除く、プラグイン本体および構成ファイルの再配布は禁止です。
 
-言語ファイル・プリセットファイルの再配布を含むその他すべての条件は、同梱の [EULA_jp.txt](Distribution/EULA_jp.txt) / [EULA_en.txt](Distribution/EULA_en.txt) に定めます。
+言語ファイル・プリセットファイルの再配布を含むその他すべての条件は、同梱の [EULA_jp.txt](distribution/EULA_jp.txt) / [EULA_en.txt](distribution/EULA_en.txt) に定めます。
 
 この README は概要のみを示すものであり、EULA の内容を変更するものではありません。
 
@@ -265,7 +265,7 @@ Alauda は**プロプライエタリなフリーソフトウェア**です。個
 - **JUCE 9.0.1**（JUCE 9 Starter ライセンス）Raw Material Software Limited。設定画面の構築に使用しており、Alauda 自身のライセンスではなく JUCE 9 エンドユーザーライセンス契約に従います。Windows ビルドには zlib、libpng、Independent JPEG Group の JPEG ソフトウェア、HarfBuzz、SheenBidi、LunaSVG、PlutoVG も、それぞれのライセンスのもとで含まれます。
 - **foobar2000 SDK** foobar2000 プロジェクトの定める条件に従います。foobar2000 本体は Alauda の一部ではなく、同梱もしていません。
 
-詳細は [third-party-notices.txt](Distribution/third-party-notices.txt) をご覧ください。
+詳細は [third-party-notices.txt](distribution/third-party-notices.txt) をご覧ください。
 
 ---
 

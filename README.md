@@ -192,12 +192,12 @@ A matching checksum confirms that the downloaded file is identical to the file i
 - [Online manual (English / 日本語)](https://moenium.net/alauda/manual/1.0/)
   - Detailed descriptions of each processing stage
   - Default values and ranges for all parameters
-- [Changelog](Distribution/changelog.md)
-- [README bundled with the release (English)](Distribution/readme_en.txt)
-- [README bundled with the release (日本語)](Distribution/readme.txt)
-- [EULA](Distribution/EULA_en.txt)
-- [Japanese EULA](Distribution/EULA_jp.txt)
-- [Third-party notices](Distribution/third-party-notices.txt)
+- [Changelog](distribution/changelog.md)
+- [README bundled with the release (English)](distribution/readme_en.txt)
+- [README bundled with the release (日本語)](distribution/readme.txt)
+- [EULA](distribution/EULA_en.txt)
+- [Japanese EULA](distribution/EULA_jp.txt)
+- [Third-party notices](distribution/third-party-notices.txt)
 
 ## Presets and languages
 
@@ -254,7 +254,7 @@ Alauda is **proprietary freeware**. It may be used free of charge for personal, 
 
 Redistribution of the plug-in and its component files, other than language and preset files, is prohibited.
 
-Redistribution of language and preset files, together with all other terms and conditions, is governed by the bundled [EULA_en.txt](Distribution/EULA_en.txt) / [EULA_jp.txt](Distribution/EULA_jp.txt).
+Redistribution of language and preset files, together with all other terms and conditions, is governed by the bundled [EULA_en.txt](distribution/EULA_en.txt) / [EULA_jp.txt](distribution/EULA_jp.txt).
 
 This README is a summary only and does not modify the EULA.
 
@@ -263,7 +263,7 @@ This README is a summary only and does not modify the EULA.
 - **JUCE 9.0.1** (JUCE 9 Starter licence), Raw Material Software Limited. JUCE is used to build the configuration interface and is governed by the JUCE 9 End User Licence Agreement rather than Alauda's own licence. The Windows build also incorporates zlib, libpng, Independent JPEG Group JPEG software, HarfBuzz, SheenBidi, LunaSVG, and PlutoVG under their respective licences.
 - **foobar2000 SDK**, governed by the foobar2000 project's own terms. foobar2000 itself is not part of Alauda and is not distributed with it.
 
-See [third-party-notices.txt](Distribution/third-party-notices.txt) for details.
+See [third-party-notices.txt](distribution/third-party-notices.txt) for details.
 
 ---
 
