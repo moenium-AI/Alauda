@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Logo/alauda_lockup.svg" alt="Alauda" width="420">
+<img src="logo/alauda_lockup.svg" alt="Alauda" width="420">
 
 **foobar2000 用 多機能 DSP コンポーネント**
 
@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <a href="https://ko-fi.com/moenium"><strong>Ko-fiでAlaudaを支援</strong></a>
+  <a href="https://ko-fi.com/moenium"><strong>🦊 Ko-fiでAlaudaを応援してください 🎵</strong></a>
 </p>
 
 ---
@@ -36,7 +36,7 @@ Alauda は foobar2000 の再生チェーンの中に入り、出力デバイス�
 13 の処理ステージが決まった順序で並び、それぞれを個別に有効にできます。初期状態は意図的にほぼ無効です。リサンプラーを含むほとんどのステージが無効から始まるため、インストール直後に音が変わらないのは正常な動作です。
 
 <div align="center">
-<img src="screenshots/alauda_screenshot/08_eq_compact.png" alt="Alauda 設定画面 - EQ ページ" width="720">
+<img src="screenshots/alauda_screenshot/16_navigation_pinned.png" alt="Alauda 設定画面 - Resampler ページ" width="720">
 </div>
 
 ## 目次
