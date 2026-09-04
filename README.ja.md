@@ -12,7 +12,7 @@
 [マニュアル](https://moenium.net/alauda/manual/1.0/) ·
 [GitHub Releases](../../releases/latest) ·
 [BOOTH](https://moenium.booth.pm/items/8779312) ·
-[更新履歴](Distribution/changelog.md) ·
+[更新履歴](distribution/changelog.md) ·
 [English README](README.md)
 
 </div>
