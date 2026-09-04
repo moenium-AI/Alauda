@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Logo/PNG/alauda_logo_wide.png" alt="Alauda" width="420">
+<img src="Logo/alauda_lockup.svg" alt="Alauda" width="420">
 
 **foobar2000 用 多機能 DSP コンポーネント**
 
@@ -18,9 +18,13 @@
 </div>
 
 <p align="center">
-  <a href="https://ko-fi.com/ここにあなたのID">
+  <a href="https://ko-fi.com/moenium">
     <img src="images/kofi_banner.png" alt="Support Alauda on Ko-fi" width="1000">
   </a>
+</p>
+
+<p align="center">
+  <a href="https://ko-fi.com/moenium"><strong>Ko-fiでAlaudaを支援</strong></a>
 </p>
 
 ---
@@ -205,16 +209,6 @@ Alauda は翻訳ファイルをコンポーネント DLL の隣ではなく、fo
 - キー名
 - 現在の文言
 - 提案する文言
-
-## このリポジトリについて
-
-この GitHub リポジトリでは、コンパイル済みのプラグイン、文書、言語ファイル、プリセット、および関連する配布用ファイルを公開しています。
-
-**Alauda のプログラムソースコードは公開していません。**
-
-GitHub Releases には、GitHub によって自動生成された **Source code (zip)** および **Source code (tar.gz)** が表示される場合があります。
-
-これらは GitHub がリポジトリの内容から生成するスナップショットであり、Alauda のプログラムソースコードではありません。
 
 ## フィードバック・不具合報告
 
