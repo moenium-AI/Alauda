@@ -1,0 +1,12 @@
+# Every file in this repository is either a shipped distribution artefact or a
+# copy of one. They must stay byte-identical to what is inside the release
+# archive, so git must never rewrite line endings or touch the BOM.
+#
+# Without this, core.autocrlf=input would silently convert the CRLF in the
+# .lng, EULA and readme files to LF on commit, and a fresh clone would no
+# longer match the files that ship in Alauda_<version>.zip.
+* -text
+
+# Binary assets, so git never attempts a textual diff or merge on them.
+*.png  binary
+*.zip  binary

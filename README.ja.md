@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="logo/alauda_lockup.svg" alt="Alauda" width="420">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="logo/alauda_lockup_dark.svg">
+  <img src="logo/alauda_lockup.svg" alt="Alauda" width="420">
+</picture>
 
 **foobar2000 用 多機能 DSP コンポーネント**
 
@@ -36,7 +39,7 @@ Alauda は foobar2000 の再生チェーンの中に入り、出力デバイス�
 13 の処理ステージが決まった順序で並び、それぞれを個別に有効にできます。初期状態は意図的にほぼ無効です。リサンプラーを含むほとんどのステージが無効から始まるため、インストール直後に音が変わらないのは正常な動作です。
 
 <div align="center">
-<img src="screenshots/alauda_screenshot/16_navigation_pinned.png" alt="Alauda 設定画面 - Resampler ページ" width="720">
+<img src="screenshots/alauda_screenshot/16_navigation_pinned.png" alt="Alauda 設定画面 - リサンプラー ページ" width="720">
 </div>
 
 ## 目次
@@ -50,7 +53,6 @@ Alauda は foobar2000 の再生チェーンの中に入り、出力デバイス�
 - [ダウンロードと検証](#ダウンロードと検証)
 - [ドキュメント](#ドキュメント)
 - [プリセットと言語](#プリセットと言語)
-- [このリポジトリについて](#このリポジトリについて)
 - [フィードバック・不具合報告](#フィードバック不具合報告)
 - [ライセンス](#ライセンス)
 
@@ -215,7 +217,7 @@ Alauda は翻訳ファイルをコンポーネント DLL の隣ではなく、fo
 
 ### 試作言語ファイル
 
-`Languages/experimental/` には、次の言語の試作ファイルを収録しています。
+`languages/experimental/` には、次の言語の試作ファイルを収録しています。
 
 - ドイツ語
 - フランス語

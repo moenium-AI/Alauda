@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="logo/alauda_lockup.svg" alt="Alauda" width="420">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="logo/alauda_lockup_dark.svg">
+  <img src="logo/alauda_lockup.svg" alt="Alauda" width="420">
+</picture>
 
 **A multifunctional DSP component for foobar2000**
 
@@ -55,7 +58,6 @@ immediately after installation is expected.
 - [Download and verification](#download-and-verification)
 - [Documentation](#documentation)
 - [Presets and languages](#presets-and-languages)
-- [About this repository](#about-this-repository)
 - [Feedback and bug reports](#feedback-and-bug-reports)
 - [License](#license)
 
@@ -215,7 +217,7 @@ Alauda reads translation files from the foobar2000 profile rather than from besi
 
 ### Experimental translations
 
-`Languages/experimental/` contains draft language files for:
+`languages/experimental/` contains draft language files for:
 
 - German
 - French
