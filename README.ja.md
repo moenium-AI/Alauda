@@ -207,6 +207,13 @@ Get-FileHash .\Alauda_*.zip -Algorithm SHA256
 
 Alauda 本体の機能を追加したり制限したりするものではありません。公式配布ではコンポーネント本体とは別に収録されています。必要に応じて解凍してお使いください。
 
+このリポジトリからも直接ダウンロードできます。
+
+- [Preset Pack Vol.1](presets/Alauda_Preset_Pack_Vol1.zip) — ジャンルプリセット 12 種
+- [Preset Pack Vol.2](presets/Alauda_Preset_Pack_Vol2.zip) — アナログ感・エンハンス・EQ・リバーブ・サチュレーション、および追加のジャンルプリセット 計 38 種
+
+各パックには、収録プリセットを説明した readme が同梱されています。
+
 ### 日本語表示
 
 日本語表示は任意です。

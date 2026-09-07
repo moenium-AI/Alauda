@@ -207,6 +207,13 @@ A matching checksum confirms that the downloaded file is identical to the file i
 
 They do not add to or restrict Alauda's functionality. In the official distribution, they are supplied separately from the component itself. Extract and use them as needed.
 
+Both packs are also available directly from this repository:
+
+- [Preset Pack Vol.1](presets/Alauda_Preset_Pack_Vol1.zip) — 12 genre presets
+- [Preset Pack Vol.2](presets/Alauda_Preset_Pack_Vol2.zip) — 38 presets for Analog, Enhance, EQ, Reverb, and Saturation, plus further genre presets
+
+Each pack contains its own readme describing the individual presets.
+
 ### Japanese interface
 
 The Japanese interface is optional.
