@@ -86,42 +86,74 @@ Alauda より前に置かれた DSP の出力は Alauda に入力され、Alauda
 
 ## スクリーンショット
 
-| プロファイル | サチュレーション |
-| --- | --- |
-| ![プロファイル](screenshots/alauda_screenshot/01_profiles_compact.png) | ![サチュレーション](screenshots/alauda_screenshot/07_saturation_compact.png) |
+<table>
+<tr><th width="50%">プロファイル</th><th width="50%">サチュレーション</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/01_profiles_compact.png" alt="プロファイル"></td>
+<td><img src="screenshots/alauda_screenshot/07_saturation_compact.png" alt="サチュレーション"></td>
+</tr>
+</table>
 
-| リバーブ | ヘッドホン |
-| --- | --- |
-| ![リバーブ](screenshots/alauda_screenshot/09_reverb_compact.png) | ![ヘッドホン](screenshots/alauda_screenshot/12_headphone_compact.png) |
+<table>
+<tr><th width="50%">リバーブ</th><th width="50%">ヘッドホン</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/09_reverb_compact.png" alt="リバーブ"></td>
+<td><img src="screenshots/alauda_screenshot/12_headphone_compact.png" alt="ヘッドホン"></td>
+</tr>
+</table>
 
 <details>
 <summary><strong>その他のスクリーンショット</strong></summary>
 
 <br>
 
-| リサンプラー | 波形再構成 |
-| --- | --- |
-| ![リサンプラー](screenshots/alauda_screenshot/02_resampler_compact.png) | ![波形再構成](screenshots/alauda_screenshot/03_reconstruction_compact.png) |
+<table>
+<tr><th width="50%">リサンプラー</th><th width="50%">波形再構成</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/02_resampler_compact.png" alt="リサンプラー"></td>
+<td><img src="screenshots/alauda_screenshot/03_reconstruction_compact.png" alt="波形再構成"></td>
+</tr>
+</table>
 
-| ダイナミクス復元 | エンハンス |
-| --- | --- |
-| ![ダイナミクス復元](screenshots/alauda_screenshot/04_dynamics_compact.png) | ![エンハンス](screenshots/alauda_screenshot/05_enhance_compact.png) |
+<table>
+<tr><th width="50%">ダイナミクス復元</th><th width="50%">エンハンス</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/04_dynamics_compact.png" alt="ダイナミクス復元"></td>
+<td><img src="screenshots/alauda_screenshot/05_enhance_compact.png" alt="エンハンス"></td>
+</tr>
+</table>
 
-| アナログ感 | EQ |
-| --- | --- |
-| ![アナログ感](screenshots/alauda_screenshot/06_analog_compact.png) | ![EQ](screenshots/alauda_screenshot/08_eq_compact.png) |
+<table>
+<tr><th width="50%">アナログ感</th><th width="50%">EQ</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/06_analog_compact.png" alt="アナログ感"></td>
+<td><img src="screenshots/alauda_screenshot/08_eq_compact.png" alt="EQ"></td>
+</tr>
+</table>
 
-| 仕上げ補正 | ステレオ定位 |
-| --- | --- |
-| ![仕上げ補正](screenshots/alauda_screenshot/10_refine_compact.png) | ![ステレオ定位](screenshots/alauda_screenshot/11_stereo_image_compact.png) |
+<table>
+<tr><th width="50%">仕上げ補正</th><th width="50%">ステレオ定位</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/10_refine_compact.png" alt="仕上げ補正"></td>
+<td><img src="screenshots/alauda_screenshot/11_stereo_image_compact.png" alt="ステレオ定位"></td>
+</tr>
+</table>
 
-| ヘッドホン・マッチ | 出力 |
-| --- | --- |
-| ![ヘッドホン・マッチ](screenshots/alauda_screenshot/13_headphone_match_compact.png) | ![出力](screenshots/alauda_screenshot/14_finish_compact.png) |
+<table>
+<tr><th width="50%">ヘッドホン・マッチ</th><th width="50%">出力</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/13_headphone_match_compact.png" alt="ヘッドホン・マッチ"></td>
+<td><img src="screenshots/alauda_screenshot/14_finish_compact.png" alt="出力"></td>
+</tr>
+</table>
 
-| ダークテーマ | ハイコントラストテーマ |
-| --- | --- |
-| ![ダークテーマ](screenshots/alauda_screenshot/17_theme_dark.png) | ![ハイコントラストテーマ](screenshots/alauda_screenshot/18_theme_high_contrast.png) |
+<table>
+<tr><th width="50%">ダークテーマ</th><th width="50%">ハイコントラストテーマ</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/17_theme_dark.png" alt="ダークテーマ"></td>
+<td><img src="screenshots/alauda_screenshot/18_theme_high_contrast.png" alt="ハイコントラストテーマ"></td>
+</tr>
+</table>
 
 </details>
 

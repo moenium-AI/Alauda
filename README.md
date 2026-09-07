@@ -89,42 +89,74 @@ Ordering inside foobar2000's **Active DSPs** list also matters. A DSP placed bef
 
 ## Screenshots
 
-| Profiles | Saturation |
-| --- | --- |
-| ![Profiles](screenshots/alauda_screenshot/01_profiles_compact.png) | ![Saturation](screenshots/alauda_screenshot/07_saturation_compact.png) |
+<table>
+<tr><th width="50%">Profiles</th><th width="50%">Saturation</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/01_profiles_compact.png" alt="Profiles"></td>
+<td><img src="screenshots/alauda_screenshot/07_saturation_compact.png" alt="Saturation"></td>
+</tr>
+</table>
 
-| Reverb | Headphone |
-| --- | --- |
-| ![Reverb](screenshots/alauda_screenshot/09_reverb_compact.png) | ![Headphone](screenshots/alauda_screenshot/12_headphone_compact.png) |
+<table>
+<tr><th width="50%">Reverb</th><th width="50%">Headphone</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/09_reverb_compact.png" alt="Reverb"></td>
+<td><img src="screenshots/alauda_screenshot/12_headphone_compact.png" alt="Headphone"></td>
+</tr>
+</table>
 
 <details>
 <summary><strong>More screenshots</strong></summary>
 
 <br>
 
-| Resampler | Reconstruction |
-| --- | --- |
-| ![Resampler](screenshots/alauda_screenshot/02_resampler_compact.png) | ![Reconstruction](screenshots/alauda_screenshot/03_reconstruction_compact.png) |
+<table>
+<tr><th width="50%">Resampler</th><th width="50%">Reconstruction</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/02_resampler_compact.png" alt="Resampler"></td>
+<td><img src="screenshots/alauda_screenshot/03_reconstruction_compact.png" alt="Reconstruction"></td>
+</tr>
+</table>
 
-| Dynamics Restoration | Enhance |
-| --- | --- |
-| ![Dynamics Restoration](screenshots/alauda_screenshot/04_dynamics_compact.png) | ![Enhance](screenshots/alauda_screenshot/05_enhance_compact.png) |
+<table>
+<tr><th width="50%">Dynamics Restoration</th><th width="50%">Enhance</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/04_dynamics_compact.png" alt="Dynamics Restoration"></td>
+<td><img src="screenshots/alauda_screenshot/05_enhance_compact.png" alt="Enhance"></td>
+</tr>
+</table>
 
-| Analog | EQ |
-| --- | --- |
-| ![Analog](screenshots/alauda_screenshot/06_analog_compact.png) | ![EQ](screenshots/alauda_screenshot/08_eq_compact.png) |
+<table>
+<tr><th width="50%">Analog</th><th width="50%">EQ</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/06_analog_compact.png" alt="Analog"></td>
+<td><img src="screenshots/alauda_screenshot/08_eq_compact.png" alt="EQ"></td>
+</tr>
+</table>
 
-| Refine | Stereo Image |
-| --- | --- |
-| ![Refine](screenshots/alauda_screenshot/10_refine_compact.png) | ![Stereo Image](screenshots/alauda_screenshot/11_stereo_image_compact.png) |
+<table>
+<tr><th width="50%">Refine</th><th width="50%">Stereo Image</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/10_refine_compact.png" alt="Refine"></td>
+<td><img src="screenshots/alauda_screenshot/11_stereo_image_compact.png" alt="Stereo Image"></td>
+</tr>
+</table>
 
-| Headphone Match | Finish |
-| --- | --- |
-| ![Headphone Match](screenshots/alauda_screenshot/13_headphone_match_compact.png) | ![Finish](screenshots/alauda_screenshot/14_finish_compact.png) |
+<table>
+<tr><th width="50%">Headphone Match</th><th width="50%">Finish</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/13_headphone_match_compact.png" alt="Headphone Match"></td>
+<td><img src="screenshots/alauda_screenshot/14_finish_compact.png" alt="Finish"></td>
+</tr>
+</table>
 
-| Dark Theme | High Contrast Theme |
-| --- | --- |
-| ![Dark Theme](screenshots/alauda_screenshot/17_theme_dark.png) | ![High Contrast Theme](screenshots/alauda_screenshot/18_theme_high_contrast.png) |
+<table>
+<tr><th width="50%">Dark Theme</th><th width="50%">High Contrast Theme</th></tr>
+<tr>
+<td><img src="screenshots/alauda_screenshot/17_theme_dark.png" alt="Dark Theme"></td>
+<td><img src="screenshots/alauda_screenshot/18_theme_high_contrast.png" alt="High Contrast Theme"></td>
+</tr>
+</table>
 
 </details>
 
