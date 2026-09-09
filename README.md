@@ -20,16 +20,6 @@
 
 </div>
 
-<p align="center">
-  <a href="https://ko-fi.com/moenium">
-    <img src="images/kofi_banner.png" alt="Support Alauda on Ko-fi" width="1000">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://ko-fi.com/moenium"><strong>Enjoying Alauda? Support me on Ko-fi</strong></a>
-</p>
-
 ---
 
 Alauda sits in the foobar2000 playback chain and processes audio on its way to
@@ -59,6 +49,7 @@ immediately after installation is expected.
 - [Documentation](#documentation)
 - [Presets and languages](#presets-and-languages)
 - [Feedback and bug reports](#feedback-and-bug-reports)
+- [Supporting Alauda](#supporting-alauda)
 - [License](#license)
 
 ## Features
@@ -288,6 +279,17 @@ When reporting a correction, please include:
 Bug reports, translation corrections, and other feedback are welcome.
 
 **contact@moenium.net**
+
+## Supporting Alauda
+
+Alauda is free, and it will stay free. If it has earned a place in your
+listening chain and you would like to help it keep going, there is a Ko-fi page.
+
+<p align="center">
+  <a href="https://ko-fi.com/moenium">
+    <img src="images/kofi_banner.png" alt="Support Alauda on Ko-fi" width="600">
+  </a>
+</p>
 
 ## License
 

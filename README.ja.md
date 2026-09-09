@@ -20,16 +20,6 @@
 
 </div>
 
-<p align="center">
-  <a href="https://ko-fi.com/moenium">
-    <img src="images/kofi_banner.png" alt="Support Alauda on Ko-fi" width="1000">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://ko-fi.com/moenium"><strong>🦊 Ko-fiでAlaudaを応援してください 🎵</strong></a>
-</p>
-
 ---
 
 Alauda は foobar2000 の再生チェーンの中に入り、出力デバイスへ向かう音声を加工する多機能 DSP コンポーネントです。
@@ -54,6 +44,7 @@ Alauda は foobar2000 の再生チェーンの中に入り、出力デバイス�
 - [ドキュメント](#ドキュメント)
 - [プリセットと言語](#プリセットと言語)
 - [フィードバック・不具合報告](#フィードバック不具合報告)
+- [Alauda を応援する](#alauda-を応援する)
 - [ライセンス](#ライセンス)
 
 ## 主な機能
@@ -290,6 +281,21 @@ Alauda は翻訳ファイルをコンポーネント DLL の隣ではなく、fo
 不具合報告、翻訳の修正提案、その他のフィードバックを受け付けています。
 
 **contact@moenium.net**
+
+## Alauda を応援する
+
+Alauda は無料です。これからも無料です。あなたの再生環境に居場所を得られたなら、
+Ko-fi から開発を応援していただけます。
+
+<p align="center">
+  <a href="https://ko-fi.com/moenium">
+    <img src="images/kofi_banner.png" alt="Ko-fi で Alauda を応援する" width="600">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://ko-fi.com/moenium"><strong>🦊 Ko-fi で Alauda を応援してください 🎵</strong></a>
+</p>
 
 ## ライセンス
 
