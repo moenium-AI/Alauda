@@ -289,7 +289,7 @@ Ko-fi から開発を応援していただけます。
 
 <p align="center">
   <a href="https://ko-fi.com/moenium">
-    <img src="images/kofi_banner.png" alt="Ko-fi で Alauda を応援する" width="600">
+    <img src="images/kofi_banner.jpg" alt="Ko-fi で Alauda を応援する" width="600">
   </a>
 </p>
 

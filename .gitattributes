@@ -9,4 +9,5 @@
 
 # Binary assets, so git never attempts a textual diff or merge on them.
 *.png  binary
+*.jpg  binary
 *.zip  binary

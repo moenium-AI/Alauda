@@ -287,7 +287,7 @@ listening chain and you would like to help it keep going, there is a Ko-fi page.
 
 <p align="center">
   <a href="https://ko-fi.com/moenium">
-    <img src="images/kofi_banner.png" alt="Support Alauda on Ko-fi" width="600">
+    <img src="images/kofi_banner.jpg" alt="Support Alauda on Ko-fi" width="600">
   </a>
 </p>
 
