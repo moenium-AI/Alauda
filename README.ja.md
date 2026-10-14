@@ -44,6 +44,7 @@ Alauda は foobar2000 の再生チェーンの中に入り、出力デバイス�
 - [ドキュメント](#ドキュメント)
 - [プリセットと言語](#プリセットと言語)
 - [フィードバック・不具合報告](#フィードバック不具合報告)
+- [更新履歴](#更新履歴)
 - [Alauda を応援する](#alauda-を応援する)
 - [ライセンス](#ライセンス)
 
@@ -217,7 +218,6 @@ Get-FileHash .\Alauda_*.zip -Algorithm SHA256
 - [オンラインマニュアル（日本語 / English）](https://moenium.net/alauda/manual/1.0/)
   - 各処理ステージの詳細
   - 全パラメーターの既定値と範囲
-- [更新履歴](distribution/changelog.md)
 - [同梱 README（日本語）](distribution/readme.txt)
 - [同梱 README（English）](distribution/readme_en.txt)
 - [EULA（日本語）](distribution/EULA_jp.txt)
@@ -281,6 +281,10 @@ Alauda は翻訳ファイルをコンポーネント DLL の隣ではなく、fo
 不具合報告、翻訳の修正提案、その他のフィードバックを受け付けています。
 
 **contact@moenium.net**
+
+## 更新履歴
+
+各バージョンの変更点は、[Alauda の更新履歴](distribution/changelog.md)をご覧ください。
 
 ## Alauda を応援する
 
