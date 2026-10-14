@@ -1,11 +1,11 @@
 ================================================================
- Alauda  Version 1.0.0
+ Alauda  Version 1.0.1
 ================================================================
 
 A multifunctional DSP component for foobar2000
 
   Copyright (C) 2026 moenium
-  Release date : 2026-08-29
+  Release date : 2026-10-15
 
 
 ----------------------------------------------------------------
@@ -42,12 +42,14 @@ Freeware. Free for personal and commercial use.
 
 Preset Pack Vol.1 and Vol.2 are additional preset packs that make it easier to
 try Alauda's settings. They are not part of the Alauda component; they are
-included as separate ZIP files in this release archive. They do not add to or
-restrict the plug-in's features. Extract and use them as needed.
+included as separate ZIP files in the Preset Packs folder of this release
+archive. They do not add to or restrict the plug-in's features. Extract and
+use them as needed.
 
 Redistribution, modification, reverse engineering and all other use
-conditions are set out in the bundled EULA_jp.txt / EULA_en.txt. This
-README provides only a summary and does not change the EULA.
+conditions are set out in the bundled files:
+licenses/EULA_jp.txt and licenses/EULA_en.txt. This README provides only a
+summary and does not change the EULA.
 
 
 ----------------------------------------------------------------
@@ -78,7 +80,7 @@ resulting sample rate.
 ----------------------------------------------------------------
 
   1. Close foobar2000.
-  2. Double-click the bundled foo_dsp_alauda.fb2k-component.
+  2. Double-click the bundled foo_dsp_alauda-1.0.1.fb2k-component.
      (Or open File > Preferences > Components in foobar2000 and
       choose Install...)
   3. Select Apply. foobar2000 restarts to finish the installation.
@@ -174,7 +176,8 @@ Alauda: proprietary freeware
   Free for personal, professional and commercial use.
   Redistribution of the plug-in and its component files, other than language
   and preset files, is prohibited. Redistribution of language and preset files,
-  and all other conditions, are set out in the bundled EULA_jp.txt / EULA_en.txt.
+  and all other conditions are set out in the bundled files:
+  licenses/EULA_jp.txt and licenses/EULA_en.txt.
 
 Bundled software:
 
@@ -189,7 +192,7 @@ Bundled software:
     Used to build Alauda as a foobar2000 component. foobar2000
     itself is not part of Alauda and is not distributed with it.
 
-  See the bundled third-party-notices.txt for details.
+  See the bundled licenses/third-party-notices.txt for details.
 
 
 ----------------------------------------------------------------

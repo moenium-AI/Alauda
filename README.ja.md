@@ -167,7 +167,7 @@ Alauda より前に置かれた DSP の出力は Alauda に入力され、Alauda
 ## インストール
 
 1. foobar2000 を終了します。
-2. `foo_dsp_alauda.fb2k-component` をダブルクリックします。または **File → Preferences → Components** を開き **Install…** を選びます。
+2. `foo_dsp_alauda-<version>.fb2k-component` をダブルクリックします。または **File → Preferences → Components** を開き **Install…** を選びます。
 3. **Apply** を選ぶと foobar2000 が再起動し、インストールが完了します。
 
 コンポーネントをインストールしただけでは再生チェーンには入りません。

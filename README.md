@@ -170,7 +170,7 @@ Using a high resampling factor also requires an output device that accepts the r
 ## Installation
 
 1. Close foobar2000.
-2. Double-click `foo_dsp_alauda.fb2k-component`, or open **File → Preferences → Components** and choose **Install…**.
+2. Double-click `foo_dsp_alauda-<version>.fb2k-component`, or open **File → Preferences → Components** and choose **Install…**.
 3. Select **Apply**. foobar2000 restarts to complete the installation.
 
 Installing the component alone does not add it to the playback chain.
