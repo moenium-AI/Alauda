@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.1] — 2026-10-15
+
+- Various bug fixes.
+
 ## [1.0.0] — 2026-08-29
 
 - First public release of Alauda.

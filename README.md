@@ -49,6 +49,7 @@ immediately after installation is expected.
 - [Documentation](#documentation)
 - [Presets and languages](#presets-and-languages)
 - [Feedback and bug reports](#feedback-and-bug-reports)
+- [Changelog](#changelog)
 - [Supporting Alauda](#supporting-alauda)
 - [License](#license)
 
@@ -170,7 +171,7 @@ Using a high resampling factor also requires an output device that accepts the r
 ## Installation
 
 1. Close foobar2000.
-2. Double-click `foo_dsp_alauda.fb2k-component`, or open **File → Preferences → Components** and choose **Install…**.
+2. Double-click `foo_dsp_alauda-<version>.fb2k-component`, or open **File → Preferences → Components** and choose **Install…**.
 3. Select **Apply**. foobar2000 restarts to complete the installation.
 
 Installing the component alone does not add it to the playback chain.
@@ -217,7 +218,6 @@ A matching checksum confirms that the downloaded file is identical to the file i
 - [Online manual (English / 日本語)](https://moenium.net/alauda/manual/1.0/)
   - Detailed descriptions of each processing stage
   - Default values and ranges for all parameters
-- [Changelog](distribution/changelog.md)
 - [README bundled with the release (English)](distribution/readme_en.txt)
 - [README bundled with the release (日本語)](distribution/readme.txt)
 - [EULA](distribution/EULA_en.txt)
@@ -279,6 +279,10 @@ When reporting a correction, please include:
 Bug reports, translation corrections, and other feedback are welcome.
 
 **contact@moenium.net**
+
+## Changelog
+
+For changes in each release, see the [Alauda changelog](distribution/changelog.md).
 
 ## Supporting Alauda
 
